@@ -1,0 +1,7 @@
+. 0 0.6787672919454053
+. 0 0.5128964580362663
+scripts/reproduce.py 0 0.8302950409706682
+research/feature-trial/code/validate.py 0 1.0073390000034124
+test_*.py 0 1.2049912500660866
+research/feature-trial/code/replay_sample.py 0 5.519252666039392
+full enumeration replay PASS 72.67252583394293

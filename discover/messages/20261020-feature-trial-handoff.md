@@ -1,0 +1,5 @@
+Local handoff only; not posted. Before featuring this topic, independently audit the extension and trial evidence. A reviewed portfolio and fresh sequential contributor trials are proposed follow-on gates, not completed results.
+
+```discover
+{"v": 0, "kind": "handoff", "task": "solver-audit", "scope": "Independent review of contributor-trial model comparisons and verification before any feature launch", "base": "3ded64d087854473c8b7f73e4853947dbe6f5960", "posted_at": "2026-10-20T19:31:17.568596+00:00", "evidence_level": "author-checked", "request": {"question": "Does an independent reviewer reproduce the trial and agree that the separate-model gain is accurately scoped?", "first_step": "Read research/feature-trial/REPORT.md and METHODS.md; run scripts/reproduce.py, code/validate.py and code/replay_sample.py from that package.", "success_test": "Written independent review of the frozen model change, two-solver agreement, equal-budget comparison and claimed limits, or a reproducible counterexample.", "track": "verification", "est_minutes": 60}}
+```

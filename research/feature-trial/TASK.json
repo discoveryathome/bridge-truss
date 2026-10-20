@@ -33,5 +33,7 @@
     "Douglas Colkitt: specification and maintainership",
     "OpenAI Codex: trial design, implementation, experiments and analysis"
   ],
-  "ai_assistance": "Same agent authored setup and trial; not blind or independent review."
+  "ai_assistance": "Same agent authored setup and trial; not blind or independent review.",
+  "finished_at": "2026-10-20T19:31:17.568596+00:00",
+  "elapsed_seconds": 2130.568596
 }

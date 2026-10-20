@@ -9,6 +9,7 @@ reliable early mass improvements. A separately frozen extension produced a
 quickly in the tested continuation methods. Feature a reviewed family of richer
 problems only after fresh contributors demonstrate sustained progress.
 
+The trial took approximately 36 minutes end to end (exact UTC times and checks are in VERIFY.json).
 This is a local rehearsal by the same agent that built the pilot, starting from
 commit `ed6cba1`, not a blind onboarding study or independent engineering review.
 Douglas Colkitt remains the maintainer. Code is MIT; original documentation and
@@ -182,8 +183,11 @@ physical-validation program. **Nothing here is certified for construction.**
 [Methods and replay commands](METHODS.md), [pre-experiment plan](PLAN.md),
 [machine-readable outcomes](artifacts/trial-summary.json),
 [verification receipt](VERIFY.json), and [separate best candidate](extension/best-verified.json)
-provide the evidence. Every accepted candidate and saved improvement trace is
-rechecked against both structural implementations. Original benchmark/model and
+provide the evidence. All 76 saved candidate reports and 40 improving trace points were
+rechecked against both structural implementations. A clean checkout also passed
+12 original tests and four method tests, replayed the successful guided search
+exactly, and repeated the full 24.3-million fixed-topology enumeration with the
+same counts and outcome (about 73 seconds without the earlier concurrent load). Original benchmark/model and
 verifier files are unchanged; the original frontier is unchanged.
 
 Timing includes research, implementation, execution, interpretation, rendering

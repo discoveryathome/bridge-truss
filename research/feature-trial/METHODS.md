@@ -124,7 +124,7 @@ python research/feature-trial/code/force_mip.py
 python research/feature-trial/code/extend_force_mip.py
 ```
 
-Inspect each script's `--help` before changing budgets. Optimizer branch order,
+Budgets and seeds are explicit in each script; baseline, hybrid and catalogue-MILP entry points expose command-line options. Optimizer branch order,
 wall time, and timeout bounds may differ across platforms. The candidate verifier,
 fixed seeds, immutable models, exhaustive finite-space scopes, and all recorded
 outcomes make results inspectable; they do not promise bitwise optimizer replay.
