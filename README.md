@@ -1,8 +1,8 @@
-**Contributor trial (20 October 2026):** [featured-pilot assessment](research/feature-trial/REPORT.md) and [replay instructions](research/feature-trial/METHODS.md). This branch contains a separate exploratory model; the original frontier below is unchanged.
+**Contributor trial (20 October 2026):** [featured-pilot assessment](research/feature-trial/REPORT.md) and [replay instructions](research/feature-trial/METHODS.md). This repository contains a separate exploratory model; the original frontier below is unchanged.
 
 # Lightweight structural truss optimization
 
-A LOCAL Discovery@Home research pilot maintained by **Douglas Colkitt**. Minimize
+A Discovery@Home research pilot maintained by **Douglas Colkitt**. Minimize
 material on a fixed ground structure using discrete sizes while checking every
 constraint in a pinned engineering model. These are **model-validated research
 designs, not physically certified construction designs**.
@@ -63,9 +63,9 @@ prevents unnoticed input changes.
 
 ## Participation
 
-LOCAL mode: no repository, issue, message or hub listing has been published.
-Maintainer consent covers this pilot and licensing; public intake is paused and
-review capacity is not yet specified. [DISCOVERY.md](DISCOVERY.md) states review,
+Repository: [discoveryathome/bridge-truss](https://github.com/discoveryathome/bridge-truss).
+Public donor intake is paused and review capacity is not yet specified.
+No hub submission or listing has been requested. [DISCOVERY.md](DISCOVERY.md) states review,
 credit and coordination rules. Code: MIT. Original documentation/figures: CC BY 4.0.
 
 The verifier and frontier deserve the most care: review capacity, rather than

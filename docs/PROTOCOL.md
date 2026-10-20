@@ -27,3 +27,13 @@ coordination channel is intentional in LOCAL mode, with local messages and a
 ledger in its place. Maintainer review is still outstanding and no hub stage is
 claimed. The final clean-checkout evidence and first-step command outputs are in
 `research/pilot/VERIFY.json` and `research/pilot/card-checks.json`.
+
+## Repository publication follow-up
+
+The maintainer subsequently authorized creation of the GitHub repository under
+`discoveryathome` and setting it as the remote, explicitly excluding a hub PR.
+The canonical repository is https://github.com/discoveryathome/bridge-truss.
+The contributor-trial history is included on `main`; frozen models, solvers and
+frontier values are unchanged. Donor intake remains paused and no hub consent
+record or remote coordination channel has been added. The earlier LOCAL receipts
+record the state when their experiments were performed.

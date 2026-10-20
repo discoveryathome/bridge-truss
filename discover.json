@@ -1,7 +1,7 @@
 {
   "schema": "discover/v0",
   "title": "Lightweight structural truss optimization",
-  "summary": "Discrete sizing and topology search with frozen linear truss models and independent verification; local research only.",
+  "summary": "Discrete sizing and topology search with frozen linear truss models and independent verification; research pilot, donor intake paused.",
   "domains": [
     "engineering",
     "optimization"
@@ -11,7 +11,7 @@
       "name": "Douglas Colkitt"
     }
   ],
-  "canonical_repo": "urn:local:discoveryathome:lightweight-truss",
+  "canonical_repo": "https://github.com/discoveryathome/bridge-truss",
   "entry": {
     "agents": "AGENTS.md",
     "project": "DISCOVERY.md"
@@ -44,7 +44,7 @@
   "verification_profile": "simulation",
   "review": {
     "paused": true,
-    "note": "Douglas Colkitt agreed to maintain on 2026-10-20. Review capacity not specified. LOCAL pilot, intake closed pending review and explicit publication consent."
+    "note": "Douglas Colkitt agreed to maintain on 2026-10-20. Repository publication is authorized; donor intake remains paused pending review and specified capacity. No hub submission is authorized."
   },
   "license": "MIT AND CC-BY-4.0",
   "credit": {
