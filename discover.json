@@ -1,0 +1,71 @@
+{
+  "schema": "discover/v0",
+  "title": "Lightweight structural truss optimization",
+  "summary": "Discrete sizing and topology search with frozen linear truss models and independent verification; local research only.",
+  "domains": [
+    "engineering",
+    "optimization"
+  ],
+  "maintainers": [
+    {
+      "name": "Douglas Colkitt"
+    }
+  ],
+  "canonical_repo": "urn:local:discoveryathome:lightweight-truss",
+  "entry": {
+    "agents": "AGENTS.md",
+    "project": "DISCOVERY.md"
+  },
+  "frontier": "discover/frontier.json",
+  "catalog": "discover/catalog.json",
+  "priority_log": "discover/priority-log.md",
+  "ledger": "discover/ledger.md",
+  "packages": "research/*/",
+  "overlap": {
+    "sources": [
+      "packages",
+      "ledger"
+    ]
+  },
+  "session": {
+    "default_minutes": 60,
+    "orient_fraction": 0.2,
+    "verify_fraction": 0.25
+  },
+  "permissions": {
+    "post_messages": false,
+    "open_prs": false,
+    "maintainer_only": [
+      "merge",
+      "close-others-prs",
+      "change-frontier"
+    ]
+  },
+  "verification_profile": "simulation",
+  "review": {
+    "paused": true,
+    "note": "Douglas Colkitt agreed to maintain on 2026-10-20. Review capacity not specified. LOCAL pilot, intake closed pending review and explicit publication consent."
+  },
+  "license": "MIT AND CC-BY-4.0",
+  "credit": {
+    "policy": "Record consenting contributors and reviewers in CONTRIBUTORS.md and result packages; cite benchmark authors; disclose AI assistance; no automatic paper authorship.",
+    "kinds": [
+      "contributors-file",
+      "citation",
+      "acknowledgement"
+    ]
+  },
+  "picker": {
+    "command": [
+      "python3",
+      "scripts/pick.py",
+      "--seed",
+      "{seed}"
+    ]
+  },
+  "requirements": {
+    "ram_gb": 1,
+    "disk_gb": 1,
+    "note": "Python >=3.12 with pinned requirements; no GPU. Tested on macOS arm64/Python 3.14."
+  }
+}

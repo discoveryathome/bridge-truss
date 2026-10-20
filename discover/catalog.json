@@ -1,0 +1,132 @@
+{
+  "schema": "discover-catalog/v0",
+  "priority_revision": 1,
+  "assessed_on": "2026-10-20",
+  "priority_log": "discover/priority-log.md",
+  "status": "LOCAL pilot. Intake paused. Check local messages and ledger for overlap.",
+  "tracks": [
+    {
+      "id": "replication",
+      "weight": 40,
+      "useful_outcome": "Resolve source comparability and reproduce published designs.",
+      "tasks": [
+        {
+          "id": "source-audit",
+          "question": "Which printed baseline vectors satisfy the exact stated models?",
+          "starting_points": [
+            "docs/LITERATURE.md",
+            "docs/source-lock.json"
+          ],
+          "methods": [
+            "Use the frozen inputs and exact reproduction commands; cite every new source or assumption."
+          ],
+          "acceptance_gate": "A sourced reproduction report preserving rejected original vectors.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/audit.py",
+              "sources"
+            ],
+            "expected": "Two selected baselines pass; disputed 10/25-bar rows fail; 72-bar mass-only audit is labelled.",
+            "scope": "Resolve source comparability and reproduce published designs."
+          },
+          "bottleneck_link": "Resolve source comparability and reproduce published designs."
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "weight": 25,
+      "useful_outcome": "Increase confidence in numerical acceptance.",
+      "tasks": [
+        {
+          "id": "solver-audit",
+          "question": "Can analytical and adversarial fixtures expose a shared solver error?",
+          "starting_points": [
+            "docs/MODEL.md",
+            "tests/test_solver.py"
+          ],
+          "methods": [
+            "Use the frozen inputs and exact reproduction commands; cite every new source or assumption."
+          ],
+          "acceptance_gate": "An independently reasoned check or counterexample with a minimal fixture.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/reproduce.py",
+              "--tests-only"
+            ],
+            "expected": "All 12 structural tests pass, including rejection controls.",
+            "scope": "Increase confidence in numerical acceptance."
+          },
+          "bottleneck_link": "Increase confidence in numerical acceptance."
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "weight": 25,
+      "useful_outcome": "Improve verified mass within one unchanged frozen model.",
+      "tasks": [
+        {
+          "id": "bounded-search",
+          "question": "Can seeded sizing/topology search improve a local incumbent?",
+          "starting_points": [
+            "src/truss/search.py",
+            "results/summary.json"
+          ],
+          "methods": [
+            "Use the frozen inputs and exact reproduction commands; cite every new source or assumption."
+          ],
+          "acceptance_gate": "A model-hashed feasible candidate beating a comparable row, complete seed/budget and both-solver checks.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/run_search.py",
+              "--case",
+              "10bar",
+              "--iterations",
+              "2",
+              "--seeds",
+              "7",
+              "--output",
+              "scratch/card-search"
+            ],
+            "expected": "Three small search runs write independently checked candidates and a separate summary under scratch/card-search.",
+            "scope": "Improve verified mass within one unchanged frozen model."
+          },
+          "bottleneck_link": "Improve verified mass within one unchanged frozen model."
+        }
+      ]
+    },
+    {
+      "id": "transfer",
+      "weight": 10,
+      "useful_outcome": "Identify missing engineering assumptions without certifying designs.",
+      "tasks": [
+        {
+          "id": "transfer-audit",
+          "question": "Which assumptions most limit practical transfer?",
+          "starting_points": [
+            "docs/MODEL.md",
+            "docs/ASSESSMENT.md"
+          ],
+          "methods": [
+            "Use the frozen inputs and exact reproduction commands; cite every new source or assumption."
+          ],
+          "acceptance_gate": "A bounded proposal for a separately versioned validation model; no construction claim.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/audit.py",
+              "transfer"
+            ],
+            "expected": "Prints winning utilizations and the explicitly excluded physics.",
+            "scope": "Identify missing engineering assumptions without certifying designs."
+          },
+          "bottleneck_link": "Identify missing engineering assumptions without certifying designs."
+        }
+      ]
+    }
+  ]
+}

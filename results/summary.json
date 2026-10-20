@@ -1,0 +1,110 @@
+[
+  {
+    "case": "10bar",
+    "variant": "reference",
+    "mass_lbm": 5490.737892493558,
+    "mass_kg": 2490.5568137049586,
+    "before_mass_lbm": 5490.737892493558,
+    "savings_percent": 0.0,
+    "seed": 17,
+    "by": "Local pilot / Codex",
+    "source": "results/10bar-reference-winner.json",
+    "updated": "2026-10-20",
+    "object": "results/10bar-reference-winner.json",
+    "run_masses_lbm": [
+      5490.737892493558,
+      5490.737892493558,
+      5490.737892493558
+    ]
+  },
+  {
+    "case": "10bar",
+    "variant": "tube-sizing",
+    "mass_lbm": 5692.751320722439,
+    "mass_kg": 2582.1885633871216,
+    "before_mass_lbm": 14058.166224887811,
+    "savings_percent": 59.5057333249887,
+    "seed": 17,
+    "by": "Local pilot / Codex",
+    "source": "results/10bar-tube-sizing-winner.json",
+    "updated": "2026-10-20",
+    "object": "results/10bar-tube-sizing-winner.json",
+    "run_masses_lbm": [
+      5692.751320722439,
+      5843.018307418055,
+      5757.689087059566
+    ]
+  },
+  {
+    "case": "10bar",
+    "variant": "tube-topology",
+    "mass_lbm": 5327.180567842748,
+    "mass_kg": 2416.368459185738,
+    "before_mass_lbm": 14058.166224887811,
+    "savings_percent": 62.106148962644944,
+    "seed": 17,
+    "by": "Local pilot / Codex",
+    "source": "results/10bar-tube-topology-winner.json",
+    "updated": "2026-10-20",
+    "object": "results/10bar-tube-topology-winner.json",
+    "run_masses_lbm": [
+      5327.180567842748,
+      5614.179580483901,
+      5327.180567842748
+    ]
+  },
+  {
+    "case": "25bar",
+    "variant": "reference",
+    "mass_lbm": 484.3286441960775,
+    "mass_kg": 219.68777757978555,
+    "before_mass_lbm": 485.0487974505328,
+    "savings_percent": 0.1484702690204509,
+    "seed": 17,
+    "by": "Local pilot / Codex",
+    "source": "results/25bar-reference-winner.json",
+    "updated": "2026-10-20",
+    "object": "results/25bar-reference-winner.json",
+    "run_masses_lbm": [
+      484.3286441960775,
+      484.3286441960775,
+      484.85417931471693
+    ]
+  },
+  {
+    "case": "25bar",
+    "variant": "tube-sizing",
+    "mass_lbm": 602.5532783491368,
+    "mass_kg": 273.3135695776547,
+    "before_mass_lbm": 1124.4504139768505,
+    "savings_percent": 46.41353048036303,
+    "seed": 42,
+    "by": "Local pilot / Codex",
+    "source": "results/25bar-tube-sizing-winner.json",
+    "updated": "2026-10-20",
+    "object": "results/25bar-tube-sizing-winner.json",
+    "run_masses_lbm": [
+      605.2177408337213,
+      602.5532783491368,
+      605.2177408337213
+    ]
+  },
+  {
+    "case": "25bar",
+    "variant": "tube-topology",
+    "mass_lbm": 599.8602014456469,
+    "mass_kg": 272.0920104424084,
+    "before_mass_lbm": 1124.4504139768505,
+    "savings_percent": 46.653032095553435,
+    "seed": 2026,
+    "by": "Local pilot / Codex",
+    "source": "results/25bar-tube-topology-winner.json",
+    "updated": "2026-10-20",
+    "object": "results/25bar-tube-topology-winner.json",
+    "run_masses_lbm": [
+      600.5993549621609,
+      600.1957389610625,
+      599.8602014456469
+    ]
+  }
+]

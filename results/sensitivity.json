@@ -1,0 +1,16 @@
+[
+  {
+    "case": "10bar",
+    "diagnostic": "all loads increased 1%; not frozen-frontier evaluation",
+    "linear_uniform_load_multiplier_limit": 1.0044131353053949,
+    "passes_1_percent_load_increase": false,
+    "max_utilization_after_increase": 1.005562317435152
+  },
+  {
+    "case": "25bar",
+    "diagnostic": "all loads increased 1%; not frozen-frontier evaluation",
+    "linear_uniform_load_multiplier_limit": 1.0072454787121659,
+    "passes_1_percent_load_increase": false,
+    "max_utilization_after_increase": 1.0027347070262909
+  }
+]

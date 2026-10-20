@@ -1,0 +1,16 @@
+{
+  "card": "none",
+  "catalog_revision": 1,
+  "scope": "Initialize a LOCAL frozen-model truss pilot with 10/25-bar optimization, 72-bar survey, two solvers, reproducible searches and rendered evidence.",
+  "scope_status": "unchanged",
+  "outcome": "positive",
+  "evidence_level": "author-checked",
+  "not_checked": ["Physical safety", "Global optimality", "Independent human/external package review", "72-bar feasibility", "Public donor throughput"],
+  "next_questions": [
+    {"question": "Do externally implemented solvers reproduce all six winners?", "why_it_matters": "Both current implementations share one author.", "first_step": "Run scripts/reproduce.py, then implement one frozen case in an external package.", "blocked_by": "Independent reviewer availability"},
+    {"question": "Can published vector discrepancies be resolved from original author data?", "why_it_matters": "Strict feasibility controls historical comparisons.", "first_step": "Run scripts/audit.py sources and compare cited tables.", "blocked_by": "Additional primary-source evidence"},
+    {"question": "Can a matching lower bound establish a useful optimality gap?", "why_it_matters": "Heuristic mass improvements have no minimum guarantee.", "first_step": "Read the corrected Brutting et al. 2022 formulation and enumerate model differences.", "blocked_by": "A formulation covering buckling and mechanism exclusion"}
+  ],
+  "credit": ["Douglas Colkitt: specification and maintainership", "OpenAI Codex: implementation and experiments"],
+  "ai_assistance": "All code, initial documents and numerical audits were produced with Codex. Scientific acceptance by an independent reviewer is pending."
+}
