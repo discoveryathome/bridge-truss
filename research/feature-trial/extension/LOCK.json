@@ -1,0 +1,11 @@
+{
+  "model_sha256": "c5ea7374c41713bc147ecf42c4cf1b656d16aa9118226db4bbf3998ffc449452",
+  "frozen_at": "2026-10-20T19:18:08.832693+00:00",
+  "changes_from_original": [
+    "id",
+    "version",
+    "groups (independent per member)",
+    "metadata only"
+  ],
+  "original_model_sha256": "5291c9023163d70b696d644923fc2ad94bcaf07984a6f037986f13035ef42328"
+}
