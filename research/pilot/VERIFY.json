@@ -1,0 +1,120 @@
+{
+  "status": "PASS",
+  "checked_commit": "3020a341a965f1d3fde294bd6f14568a05e1d2a4",
+  "environment": "Fresh local shallow clone, clean source tree. Shared isolated setup/venv interpreter using requirements-lock.txt; no untracked source dependencies.",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "scripts/reproduce.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.8310320000164211,
+      "stdout": "PASS 10bar-reference: 5490.737892494 lbm, 0.0000% savings; 3 seeds\nPASS 10bar-tube-sizing: 5692.751320722 lbm, 59.5057% savings; 3 seeds\nPASS 10bar-tube-topology: 5327.180567843 lbm, 62.1061% savings; 3 seeds\nPASS 25bar-reference: 484.328644196 lbm, 0.1485% savings; 3 seeds\nPASS 25bar-tube-sizing: 602.553278349 lbm, 46.4135% savings; 3 seeds\nPASS 25bar-tube-topology: 599.860201446 lbm, 46.6530% savings; 3 seeds\nPASS: 18 stored search results; both implementations; elapsed 0.250s\n",
+      "stderr": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.119s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/pick.py",
+        "--seed",
+        "00112233445566778899aabbccddeeff"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.13174116692971438,
+      "stdout": "{\n  \"seed\": \"00112233445566778899aabbccddeeff\",\n  \"track\": \"search\",\n  \"task\": {\n    \"id\": \"bounded-search\",\n    \"question\": \"Can seeded sizing/topology search improve a local incumbent?\",\n    \"starting_points\": [\n      \"src/truss/search.py\",\n      \"results/summary.json\"\n    ],\n    \"methods\": [\n      \"Use the frozen inputs and exact reproduction commands; cite every new source or assumption.\"\n    ],\n    \"acceptance_gate\": \"A model-hashed feasible candidate beating a comparable row, complete seed/budget and both-solver checks.\",\n    \"first_step\": {\n      \"command\": [\n        \"python3\",\n        \"scripts/run_search.py\",\n        \"--case\",\n        \"10bar\",\n        \"--iterations\",\n        \"2\",\n        \"--seeds\",\n        \"7\",\n        \"--output\",\n        \"scratch/card-search\"\n      ],\n      \"expected\": \"Three small search runs write independently checked candidates and a separate summary under scratch/card-search.\",\n      \"scope\": \"Improve verified mass within one unchanged frozen model.\"\n    },\n    \"bottleneck_link\": \"Improve verified mass within one unchanged frozen model.\"\n  },\n  \"overlap_check\": \"Read discover/messages and discover/ledger.md before claiming; local proposal only\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/replay_one.py",
+        "results/10bar-tube-topology-seed17.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 10.64929920900613,
+      "stdout": "PASS deterministic search replay: identical candidate, evaluation counts and trace; elapsed 9.423244667006657\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/replay_one.py",
+        "results/25bar-reference-seed17.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 10.962494916981086,
+      "stdout": "PASS deterministic search replay: identical candidate, evaluation counts and trace; elapsed 8.300895957974717\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/audit.py",
+        "sources"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.4990714159794152,
+      "stdout": "10bar published {\"reported_mass_lbm\": 5490.74, \"computed_mass_lbm\": 5490.737892493558, \"feasible\": true, \"displacement_utilization\": 0.9994714234419679}\n10bar additional_published {\"reported_mass_lbm\": 5479.93, \"computed_mass_lbm\": 5479.937892493558, \"feasible\": false, \"displacement_utilization\": 1.0019460530496498}\n25bar published {\"reported_mass_lbm\": 485.05, \"computed_mass_lbm\": 485.0487974505328, \"feasible\": true, \"displacement_utilization\": 0.9985871859803551}\n25bar published_disputed {\"reported_mass_lbm\": 484.33, \"computed_mass_lbm\": 482.8286441960775, \"feasible\": false, \"displacement_utilization\": 1.0017160223714099}\n72bar mass-only audit 379.651895187904 Survey-only; not admitted to the frozen optimization portfolio\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/reproduce.py",
+        "--tests-only"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.9904345000395551,
+      "stdout": "",
+      "stderr": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.291s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/run_search.py",
+        "--case",
+        "10bar",
+        "--iterations",
+        "2",
+        "--seeds",
+        "7",
+        "--output",
+        "scratch/card-search"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 19.48073787498288,
+      "stdout": "10bar reference 7 5490.737892 {'evaluations': 1550, 'cache_hits': 11, 'invalid': 966, 'topology_evaluations': 0, 'local_accepted': 0}\n10bar tube-sizing 7 7509.881268 {'evaluations': 6831, 'cache_hits': 377, 'invalid': 4687, 'topology_evaluations': 0, 'local_accepted': 7}\n10bar tube-topology 7 7415.049139 {'evaluations': 7981, 'cache_hits': 288, 'invalid': 6633, 'topology_evaluations': 6467, 'local_accepted': 9}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/audit.py",
+        "transfer"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.3016527919098735,
+      "stdout": "10bar {\"mass_kg\": 2416.368459185738, \"stress_utilization\": 0.7834978184892496, \"displacement_utilization\": 0.9956062548862894, \"buckling_utilization\": 0.990924203571433, \"condition_number\": 85.63991658206297}\n25bar {\"mass_kg\": 272.0920104424084, \"stress_utilization\": 0.16679522179341613, \"displacement_utilization\": 0.9928066406200903, \"buckling_utilization\": 0.9927356908574337, \"condition_number\": 45.4623188331617}\nTransfer obligations: self-weight/load envelope; local/global buckling; imperfections; connections; fabrication; design-code review; physical validation. No construction certification.\n",
+      "stderr": ""
+    }
+  ],
+  "evidence_level": "author-checked",
+  "claim_kind": "model",
+  "tested_on": "2026-10-20T18:42:09.647413+00:00",
+  "model_freeze_commit": "b3024e92c5b01ff8b9fe58b95fac110aab4a37ec",
+  "structural_test_count": 12,
+  "stored_search_runs": 18,
+  "frontier_rows": 6,
+  "independent_implementation": "Pure Python element assembly/pivoted elimination; same-session author, not external review",
+  "visual_qa": "Four before/after PNGs and search-traces plot inspected; corrected 3D heading overlap; final PNGs inspected.",
+  "protocol_validation": "discover validate: conformant; no remote coordination channel intentionally in LOCAL mode",
+  "screen": "No findings in project and fresh checkout",
+  "not_established": [
+    "Physical certification",
+    "Global optimality",
+    "Worldwide novelty",
+    "72-bar feasibility",
+    "Independent human review"
+  ]
+}

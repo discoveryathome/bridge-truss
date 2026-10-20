@@ -1,0 +1,5 @@
+Ready for local maintainer review; not posted and not a request to start public intake. The next useful work is an independent model/solver audit. The 72-bar case still needs a separate feasibility replication and pinned discrete catalogue before optimization.
+
+```discover
+{"v": 0, "kind": "handoff", "task": "solver-audit", "scope": "Independent review of frozen truss models and numerical verifiers before donor intake", "base": "3020a341a965f1d3fde294bd6f14568a05e1d2a4", "posted_at": "2026-10-20T18:42:09.647413+00:00", "evidence_level": "author-checked", "request": {"question": "Do an external solver and independent reviewer reproduce the six frozen-model winners?", "first_step": "Run python3 scripts/reproduce.py in the pinned environment, inspect docs/MODEL.md, then select one external solver implementation.", "success_test": "A reviewed report reproducing forces/displacements/mass and all constraints within stated tolerances, or a minimal counterexample.", "track": "verification", "est_minutes": 60}}
+```

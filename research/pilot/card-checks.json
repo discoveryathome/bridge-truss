@@ -1,30 +1,27 @@
 [
   {
-    "card": "source-audit",
     "command": [
       "python3",
       "scripts/audit.py",
       "sources"
     ],
     "exit_code": 0,
-    "elapsed_seconds": 1.7257504999870434,
+    "elapsed_seconds": 1.4990714159794152,
     "stdout": "10bar published {\"reported_mass_lbm\": 5490.74, \"computed_mass_lbm\": 5490.737892493558, \"feasible\": true, \"displacement_utilization\": 0.9994714234419679}\n10bar additional_published {\"reported_mass_lbm\": 5479.93, \"computed_mass_lbm\": 5479.937892493558, \"feasible\": false, \"displacement_utilization\": 1.0019460530496498}\n25bar published {\"reported_mass_lbm\": 485.05, \"computed_mass_lbm\": 485.0487974505328, \"feasible\": true, \"displacement_utilization\": 0.9985871859803551}\n25bar published_disputed {\"reported_mass_lbm\": 484.33, \"computed_mass_lbm\": 482.8286441960775, \"feasible\": false, \"displacement_utilization\": 1.0017160223714099}\n72bar mass-only audit 379.651895187904 Survey-only; not admitted to the frozen optimization portfolio\n",
     "stderr": ""
   },
   {
-    "card": "solver-audit",
     "command": [
       "python3",
       "scripts/reproduce.py",
       "--tests-only"
     ],
     "exit_code": 0,
-    "elapsed_seconds": 1.8057801669929177,
+    "elapsed_seconds": 1.9904345000395551,
     "stdout": "",
-    "stderr": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.281s\n\nOK\n"
+    "stderr": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.291s\n\nOK\n"
   },
   {
-    "card": "bounded-search",
     "command": [
       "python3",
       "scripts/run_search.py",
@@ -38,19 +35,18 @@
       "scratch/card-search"
     ],
     "exit_code": 0,
-    "elapsed_seconds": 20.273926415946335,
-    "stdout": "10bar reference 7 5490.737892 {'evaluations': 1050, 'cache_hits': 11, 'invalid': 694, 'topology_evaluations': 0, 'local_accepted': 0}\n10bar tube-sizing 7 7509.881268 {'evaluations': 6831, 'cache_hits': 377, 'invalid': 4687, 'topology_evaluations': 0, 'local_accepted': 7}\n10bar tube-topology 7 7415.049139 {'evaluations': 7981, 'cache_hits': 288, 'invalid': 6633, 'topology_evaluations': 6467, 'local_accepted': 9}\n",
+    "elapsed_seconds": 19.48073787498288,
+    "stdout": "10bar reference 7 5490.737892 {'evaluations': 1550, 'cache_hits': 11, 'invalid': 966, 'topology_evaluations': 0, 'local_accepted': 0}\n10bar tube-sizing 7 7509.881268 {'evaluations': 6831, 'cache_hits': 377, 'invalid': 4687, 'topology_evaluations': 0, 'local_accepted': 7}\n10bar tube-topology 7 7415.049139 {'evaluations': 7981, 'cache_hits': 288, 'invalid': 6633, 'topology_evaluations': 6467, 'local_accepted': 9}\n",
     "stderr": ""
   },
   {
-    "card": "transfer-audit",
     "command": [
       "python3",
       "scripts/audit.py",
       "transfer"
     ],
     "exit_code": 0,
-    "elapsed_seconds": 1.2579134999541566,
+    "elapsed_seconds": 1.3016527919098735,
     "stdout": "10bar {\"mass_kg\": 2416.368459185738, \"stress_utilization\": 0.7834978184892496, \"displacement_utilization\": 0.9956062548862894, \"buckling_utilization\": 0.990924203571433, \"condition_number\": 85.63991658206297}\n25bar {\"mass_kg\": 272.0920104424084, \"stress_utilization\": 0.16679522179341613, \"displacement_utilization\": 0.9928066406200903, \"buckling_utilization\": 0.9927356908574337, \"condition_number\": 45.4623188331617}\nTransfer obligations: self-weight/load envelope; local/global buckling; imperfections; connections; fabrication; design-code review; physical validation. No construction certification.\n",
     "stderr": ""
   }
