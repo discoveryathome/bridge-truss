@@ -10,8 +10,10 @@ class StructuralTests(unittest.TestCase):
    b=load(name); r=verify(candidate(b,'reference',b['published']['areas']))
    self.assertAlmostEqual(r['primary']['mass_lbm'],b['published']['mass_lbm'],delta=.02)
  def test_tenbar_later_design(self):
-  b=load('10bar'); p=b['additional_published']; r=verify(candidate(b,'reference',p['areas']))
-  self.assertAlmostEqual(r['primary']['mass_lbm'],p['mass_lbm'],delta=.02)
+  b=load('10bar'); p=b['additional_published']; r=Solver(b).evaluate(p['areas'])
+  self.assertAlmostEqual(r['mass_lbm'],p['mass_lbm'],delta=.02)
+  self.assertFalse(r['valid']); self.assertGreater(r['displacement_utilization'],1)
+  self.assertFalse(check(b,p['areas'],'reference')['valid'])
  def test_disputed_25bar(self):
   b=load('25bar'); p=b['published_disputed']; r=Solver(b).evaluate(p['areas'])
   self.assertFalse(r['valid']); self.assertAlmostEqual(p['mass_lbm']-r['mass_lbm'],1.5013558039)
