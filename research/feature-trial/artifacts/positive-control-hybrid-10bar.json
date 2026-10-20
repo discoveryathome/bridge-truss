@@ -1,0 +1,412 @@
+{
+  "candidate": {
+    "case": "10bar",
+    "profile": "tube-euler",
+    "model_sha256": "8a9e3b79ffd97d532da58269ff8b672612893bb7d034b4d71e5f789ee3f6c673",
+    "areas": [
+      30.0,
+      1.62,
+      22.9,
+      16.9,
+      1.62,
+      1.62,
+      4.97,
+      33.5,
+      18.8,
+      0.0
+    ],
+    "claimed_mass_lbm": 5603.472385815858
+  },
+  "verification": {
+    "case": "10bar",
+    "profile": "tube-euler",
+    "model_sha256": "8a9e3b79ffd97d532da58269ff8b672612893bb7d034b4d71e5f789ee3f6c673",
+    "primary": {
+      "valid": true,
+      "mass_lbm": 5603.472385815858,
+      "mass_kg": 2541.6923197117694,
+      "violation": 0.0,
+      "stress_utilization": 0.9257572179325612,
+      "displacement_utilization": 0.9989976578236354,
+      "buckling_utilization": 0.9097205307848034,
+      "equilibrium_relative": 8.251899813840131e-16,
+      "condition_number": 79.03381314820204,
+      "reason": "ok",
+      "displacements": [
+        [
+          0.2849918007915226,
+          -1.9979953156472707,
+          -0.46848700808428284,
+          -1.9979953156472703,
+          0.2849918007915226,
+          -0.7029028020328322,
+          -0.2554692566049926,
+          -1.5360842981721372,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "forces": [
+        [
+          237493.16732626883,
+          0.0,
+          -162506.8326737314,
+          -100000.00000000015,
+          37493.16732626873,
+          -1.998401444325282e-11,
+          88398.0105081765,
+          -194444.70196644266,
+          141421.3562373096,
+          0.0
+        ]
+      ],
+      "stresses": [
+        [
+          7916.438910875628,
+          0.0,
+          -7096.368239027573,
+          -5917.159763313619,
+          23143.93044831403,
+          -1.2335811384723963e-11,
+          17786.320021765896,
+          -5804.319461684856,
+          7522.41256581434,
+          0.0
+        ]
+      ],
+      "reactions": [
+        [
+          0.0,
+          -1.998401444325282e-11,
+          -8.251899813840131e-11,
+          -4.3655745685100555e-11,
+          -4.844823891690036e-11,
+          -9.759421996567048e-12,
+          2.8415146903500173e-11,
+          -1.4551915228366852e-11,
+          -300000.0000000001,
+          62506.83267373129,
+          300000.00000000023,
+          137493.1673262688
+        ]
+      ],
+      "lengths": [
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        509.11688245431424,
+        509.11688245431424,
+        509.11688245431424,
+        509.11688245431424
+      ],
+      "member_areas": [
+        30.0,
+        1.62,
+        22.9,
+        16.9,
+        1.62,
+        1.62,
+        4.97,
+        33.5,
+        18.8,
+        0.0
+      ],
+      "buckling_capacities": [
+        346386.6168979975,
+        1010.063374874561,
+        201831.78418608764,
+        109923.86850248561,
+        1010.063374874561,
+        1010.063374874561,
+        4753.367325186525,
+        215962.43378543205,
+        68014.9365980157,
+        0.0
+      ]
+    },
+    "independent": {
+      "valid": true,
+      "mass_lbm": 5603.472385815859,
+      "stress_utilization": 0.925757217932561,
+      "displacement_utilization": 0.9989976578236345,
+      "buckling_utilization": 0.9097205307848022,
+      "equilibrium_relative": 2.9103830456733706e-16,
+      "global_force_balance_relative": 5.820766091346741e-16,
+      "global_moment_balance_relative": 0.0,
+      "energy_relative": 0.0,
+      "displacements": [
+        [
+          0.2849918007915225,
+          -1.9979953156472687,
+          -0.46848700808428223,
+          -1.997995315647269,
+          0.2849918007915225,
+          -0.7029028020328318,
+          -0.2554692566049923,
+          -1.5360842981721368,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "forces": [
+        [
+          237493.16732626874,
+          0.0,
+          -162506.83267373123,
+          -99999.99999999999,
+          37493.167326268725,
+          9.99200722162641e-12,
+          88398.01050817648,
+          -194444.70196644258,
+          141421.35623730955,
+          0.0
+        ]
+      ],
+      "reactions": [
+        [
+          0.0,
+          0.0,
+          2.1827872842550278e-11,
+          -2.9103830456733704e-11,
+          0.0,
+          2.9103830456733704e-11,
+          2.9103830456733704e-11,
+          -1.4551915228366852e-11,
+          -300000.0,
+          62506.832673731275,
+          299999.99999999994,
+          137493.16732626874
+        ]
+      ]
+    },
+    "solver_relative_differences": {
+      "mass_lbm": 1.6230912533363134e-16,
+      "displacements": 1.0002032680831784e-15,
+      "forces": 7.352758174322744e-16,
+      "reactions": 9.701276818911227e-16,
+      "stress_utilization": 1.1102230246251565e-16,
+      "displacement_utilization": 8.881784197001252e-16,
+      "buckling_utilization": 1.2212453270876722e-15
+    },
+    "evidence_level": "author-checked",
+    "claim_kind": "model"
+  },
+  "initial_mass_lbm": 5614.179580483901,
+  "mass_lbm": 5603.472385815858,
+  "savings_percent": 0.19071699639363615,
+  "discrete_evaluations": 2294,
+  "continuous_solves": 9706,
+  "cache_hits": 0,
+  "budget": 12000,
+  "elapsed_seconds": 6.188018457964063,
+  "trace": [
+    {
+      "evaluation": 882,
+      "elapsed_seconds": 0.4493189170025289,
+      "mass_lbm": 5610.27438576484,
+      "areas": [
+        30.0,
+        1.62,
+        22.0,
+        16.9,
+        1.62,
+        1.62,
+        5.74,
+        33.5,
+        18.8,
+        0.0
+      ]
+    },
+    {
+      "evaluation": 1427,
+      "elapsed_seconds": 0.9721234169555828,
+      "mass_lbm": 5603.472385815858,
+      "areas": [
+        30.0,
+        1.62,
+        22.9,
+        16.9,
+        1.62,
+        1.62,
+        4.97,
+        33.5,
+        18.8,
+        0.0
+      ]
+    }
+  ],
+  "method": "fixed-topology-SLSQP+catalogue-lattice+rank-screened-topology-swaps+large-pair-exchanges",
+  "seed": 707,
+  "variant": "tube-topology",
+  "proposals": [
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "success": true,
+      "continuous_mass": 5521.619160771455,
+      "min_margin": -6.6417982225175365e-12,
+      "continuous_calls": 662,
+      "lattice": {
+        "tested": 800,
+        "traversed": 1056
+      }
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "success": true,
+      "continuous_mass": 5600.79612843242,
+      "min_margin": -1.1546319456101628e-14,
+      "continuous_calls": 1332,
+      "lattice": {
+        "tested": 800,
+        "traversed": 1344
+      }
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "success": false,
+      "continuous_mass": 5061.302284033016,
+      "min_margin": -0.9737222617750336,
+      "continuous_calls": 1820
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "success": true,
+      "continuous_mass": 5545.776095743775,
+      "min_margin": -4.108491324927854e-12,
+      "continuous_calls": 1102,
+      "lattice": {
+        "tested": 300,
+        "traversed": 440
+      }
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "success": true,
+      "continuous_mass": 7251.316487340655,
+      "min_margin": -8.37108160567368e-13,
+      "continuous_calls": 1573
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false
+      ],
+      "success": true,
+      "continuous_mass": 7364.466670030203,
+      "min_margin": -6.343814362708144e-13,
+      "continuous_calls": 724
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "success": false,
+      "continuous_mass": 8851.264668665823,
+      "min_margin": -1.1292343461595586,
+      "continuous_calls": 246
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "success": true,
+      "continuous_mass": 5361.805667066214,
+      "min_margin": -2.6645352591003757e-14,
+      "continuous_calls": 1284,
+      "lattice": {
+        "tested": 300,
+        "traversed": 317
+      }
+    }
+  ],
+  "note": "Positive control from a weaker pre-existing seed42 design; improvement does NOT count as a new frontier result.",
+  "beats_original_frontier": false
+}

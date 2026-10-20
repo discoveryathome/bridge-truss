@@ -1,0 +1,3862 @@
+{
+  "case": "25bar",
+  "method": "exact integer row elimination on unnormalized compatibility rows",
+  "scope": "rank of linear restrained stiffness, not physical safety; positive catalogue areas on retained groups",
+  "total_masks": 256,
+  "full_rank_masks": 12,
+  "free_dofs": 18,
+  "records": [
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "members": 0,
+      "rank": 0,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "members": 4,
+      "rank": 4,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "members": 4,
+      "rank": 4,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true
+      ],
+      "members": 8,
+      "rank": 8,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "members": 4,
+      "rank": 4,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "members": 8,
+      "rank": 8,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "members": 8,
+      "rank": 8,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      "members": 12,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "members": 2,
+      "rank": 2,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "members": 6,
+      "rank": 6,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "members": 6,
+      "rank": 6,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true
+      ],
+      "members": 10,
+      "rank": 8,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "members": 6,
+      "rank": 6,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true
+      ],
+      "members": 10,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      "members": 10,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "members": 14,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "members": 2,
+      "rank": 2,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+      ],
+      "members": 6,
+      "rank": 6,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      "members": 6,
+      "rank": 6,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "members": 10,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false
+      ],
+      "members": 6,
+      "rank": 6,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true
+      ],
+      "members": 10,
+      "rank": 8,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "members": 10,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "members": 14,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "members": 4,
+      "rank": 4,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true
+      ],
+      "members": 8,
+      "rank": 8,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        false
+      ],
+      "members": 8,
+      "rank": 8,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "members": 12,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "members": 8,
+      "rank": 8,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "members": 12,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "members": 12,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "members": 16,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "members": 4,
+      "rank": 4,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "members": 8,
+      "rank": 8,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "members": 8,
+      "rank": 8,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true
+      ],
+      "members": 12,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "members": 8,
+      "rank": 8,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "members": 12,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "members": 12,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      "members": 16,
+      "rank": 16,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "members": 6,
+      "rank": 6,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "members": 10,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "members": 10,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true
+      ],
+      "members": 14,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "members": 10,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true
+      ],
+      "members": 14,
+      "rank": 14,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      "members": 14,
+      "rank": 14,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "members": 18,
+      "rank": 16,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "members": 6,
+      "rank": 6,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+      ],
+      "members": 10,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      "members": 10,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "members": 14,
+      "rank": 14,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false
+      ],
+      "members": 10,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true
+      ],
+      "members": 14,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "members": 14,
+      "rank": 14,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "members": 18,
+      "rank": 16,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "members": 8,
+      "rank": 8,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true
+      ],
+      "members": 12,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false
+      ],
+      "members": 12,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "members": 16,
+      "rank": 14,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "members": 12,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "members": 16,
+      "rank": 14,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "members": 16,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "members": 20,
+      "rank": 16,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "members": 4,
+      "rank": 4,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "members": 8,
+      "rank": 8,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "members": 8,
+      "rank": 8,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true
+      ],
+      "members": 12,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "members": 8,
+      "rank": 8,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "members": 12,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "members": 12,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      "members": 16,
+      "rank": 16,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "members": 6,
+      "rank": 6,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "members": 10,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "members": 10,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true
+      ],
+      "members": 14,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "members": 10,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true
+      ],
+      "members": 14,
+      "rank": 14,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      "members": 14,
+      "rank": 14,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "members": 18,
+      "rank": 16,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "members": 6,
+      "rank": 6,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+      ],
+      "members": 10,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      "members": 10,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "members": 14,
+      "rank": 14,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false
+      ],
+      "members": 10,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true
+      ],
+      "members": 14,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "members": 14,
+      "rank": 14,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "members": 18,
+      "rank": 16,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "members": 8,
+      "rank": 8,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true
+      ],
+      "members": 12,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        false
+      ],
+      "members": 12,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "members": 16,
+      "rank": 14,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "members": 12,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "members": 16,
+      "rank": 14,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "members": 16,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "members": 20,
+      "rank": 16,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "members": 8,
+      "rank": 8,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "members": 12,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "members": 12,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true
+      ],
+      "members": 16,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "members": 12,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "members": 16,
+      "rank": 16,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "members": 16,
+      "rank": 16,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      "members": 20,
+      "rank": 18,
+      "full_rank": true,
+      "uniform_eigen_ratio_lower": 0.0006270092759054156
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "members": 10,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "members": 14,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "members": 14,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true
+      ],
+      "members": 18,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "members": 14,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true
+      ],
+      "members": 18,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      "members": 18,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "members": 22,
+      "rank": 18,
+      "full_rank": true,
+      "uniform_eigen_ratio_lower": 0.0005971390029301576
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "members": 10,
+      "rank": 10,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+      ],
+      "members": 14,
+      "rank": 14,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      "members": 14,
+      "rank": 14,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "members": 18,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false
+      ],
+      "members": 14,
+      "rank": 14,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true
+      ],
+      "members": 18,
+      "rank": 16,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "members": 18,
+      "rank": 18,
+      "full_rank": true,
+      "uniform_eigen_ratio_lower": 8.120077043788788e-05
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "members": 22,
+      "rank": 18,
+      "full_rank": true,
+      "uniform_eigen_ratio_lower": 0.0006112306067317156
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "members": 12,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true
+      ],
+      "members": 16,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false
+      ],
+      "members": 16,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "members": 20,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "members": 16,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "members": 20,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "members": 20,
+      "rank": 18,
+      "full_rank": true,
+      "uniform_eigen_ratio_lower": 0.00021723519018011097
+    },
+    {
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "members": 24,
+      "rank": 18,
+      "full_rank": true,
+      "uniform_eigen_ratio_lower": 0.0005931868342106845
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "members": 1,
+      "rank": 1,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "members": 5,
+      "rank": 5,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "members": 5,
+      "rank": 5,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true
+      ],
+      "members": 9,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "members": 5,
+      "rank": 5,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "members": 9,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "members": 9,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      "members": 13,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "members": 3,
+      "rank": 3,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "members": 7,
+      "rank": 7,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "members": 7,
+      "rank": 7,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true
+      ],
+      "members": 11,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "members": 7,
+      "rank": 7,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true
+      ],
+      "members": 11,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      "members": 11,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "members": 15,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "members": 3,
+      "rank": 3,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+      ],
+      "members": 7,
+      "rank": 7,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      "members": 7,
+      "rank": 7,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "members": 11,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false
+      ],
+      "members": 7,
+      "rank": 7,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true
+      ],
+      "members": 11,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "members": 11,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "members": 15,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "members": 5,
+      "rank": 5,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true
+      ],
+      "members": 9,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        false
+      ],
+      "members": 9,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "members": 13,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "members": 9,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "members": 13,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "members": 13,
+      "rank": 12,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "members": 17,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "members": 5,
+      "rank": 5,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "members": 9,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "members": 9,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true
+      ],
+      "members": 13,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "members": 9,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "members": 13,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "members": 13,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      "members": 17,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "members": 7,
+      "rank": 7,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "members": 11,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "members": 11,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true
+      ],
+      "members": 15,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "members": 11,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true
+      ],
+      "members": 15,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      "members": 15,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "members": 19,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "members": 7,
+      "rank": 7,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+      ],
+      "members": 11,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      "members": 11,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "members": 15,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false
+      ],
+      "members": 11,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true
+      ],
+      "members": 15,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "members": 15,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "members": 19,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "members": 9,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true
+      ],
+      "members": 13,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false
+      ],
+      "members": 13,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "members": 17,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "members": 13,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "members": 17,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "members": 17,
+      "rank": 16,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "members": 21,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "members": 5,
+      "rank": 5,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "members": 9,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "members": 9,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true
+      ],
+      "members": 13,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "members": 9,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "members": 13,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "members": 13,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      "members": 17,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "members": 7,
+      "rank": 7,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "members": 11,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "members": 11,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true
+      ],
+      "members": 15,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "members": 11,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true
+      ],
+      "members": 15,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      "members": 15,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "members": 19,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "members": 7,
+      "rank": 7,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+      ],
+      "members": 11,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      "members": 11,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "members": 15,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false
+      ],
+      "members": 11,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true
+      ],
+      "members": 15,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "members": 15,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "members": 19,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "members": 9,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true
+      ],
+      "members": 13,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        false
+      ],
+      "members": 13,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "members": 17,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "members": 13,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "members": 17,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "members": 17,
+      "rank": 16,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "members": 21,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "members": 9,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "members": 13,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "members": 13,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true
+      ],
+      "members": 17,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "members": 13,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "members": 17,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "members": 17,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      "members": 21,
+      "rank": 18,
+      "full_rank": true,
+      "uniform_eigen_ratio_lower": 0.0005927611508556149
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "members": 11,
+      "rank": 9,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "members": 15,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "members": 15,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true
+      ],
+      "members": 19,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "members": 15,
+      "rank": 13,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true
+      ],
+      "members": 19,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      "members": 19,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "members": 23,
+      "rank": 18,
+      "full_rank": true,
+      "uniform_eigen_ratio_lower": 0.000569248860181448
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "members": 11,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+      ],
+      "members": 15,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      "members": 15,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "members": 19,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false
+      ],
+      "members": 15,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true
+      ],
+      "members": 19,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "members": 19,
+      "rank": 18,
+      "full_rank": true,
+      "uniform_eigen_ratio_lower": 7.698735166247582e-05
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "members": 23,
+      "rank": 18,
+      "full_rank": true,
+      "uniform_eigen_ratio_lower": 0.0005875226333172104
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "members": 13,
+      "rank": 11,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true
+      ],
+      "members": 17,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false
+      ],
+      "members": 17,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "members": 21,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "members": 17,
+      "rank": 15,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "members": 21,
+      "rank": 17,
+      "full_rank": false
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "members": 21,
+      "rank": 18,
+      "full_rank": true,
+      "uniform_eigen_ratio_lower": 0.00020595053431862192
+    },
+    {
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "members": 25,
+      "rank": 18,
+      "full_rank": true,
+      "uniform_eigen_ratio_lower": 0.0005712174397479609
+    }
+  ]
+}

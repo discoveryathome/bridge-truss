@@ -40,8 +40,8 @@ def lattice(ev,center,mask,limit=600):
      seen.add(w);distance=float(np.sum(((C[list(w)]-loc)/scales)**2));heapq.heappush(heap,(distance,w))
  return dict(tested=tested,traversed=traversed)
 
-def run(case,seed,budget=12000,variant="tube-topology",initial_override=None):
- b=load(case);initial=initial_override or incumbent(case,variant);ev=Evaluator(b,initial,budget);
+def run(case,seed,budget=12000,variant="tube-topology",initial_override=None,model_override=None,checker=verify):
+ b=model_override if model_override is not None else load(case);initial=initial_override or incumbent(case,variant);ev=Evaluator(b,initial,budget,checker=checker);
  if variant!="tube-topology":ev.catalog=b["catalog"]
  rng=np.random.default_rng(seed);n=len(initial['areas']);mask=np.array(initial['areas'])>0
  masks=[tuple(mask),tuple(np.ones(n,dtype=bool))]

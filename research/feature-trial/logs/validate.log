@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "candidate_reports_recomputed": 76,
+  "improving_trace_points_recomputed": 40,
+  "exact_rank_audits": {
+    "10bar": 40,
+    "25bar": 12
+  },
+  "summary": {
+    "original_case_rows": [
+      {
+        "case": "10bar",
+        "variant": "reference",
+        "runs": 6,
+        "initial_mass_lbm": 5490.737892493558,
+        "best_mass_lbm": 5490.737892493558,
+        "improving_runs": 0,
+        "total_structural_solves": 72000
+      },
+      {
+        "case": "10bar",
+        "variant": "tube-sizing",
+        "runs": 6,
+        "initial_mass_lbm": 5692.751320722439,
+        "best_mass_lbm": 5692.751320722439,
+        "improving_runs": 0,
+        "total_structural_solves": 72000
+      },
+      {
+        "case": "10bar",
+        "variant": "tube-topology",
+        "runs": 10,
+        "initial_mass_lbm": 5327.180567842748,
+        "best_mass_lbm": 5327.180567842748,
+        "improving_runs": 0,
+        "total_structural_solves": 120000
+      },
+      {
+        "case": "25bar",
+        "variant": "reference",
+        "runs": 6,
+        "initial_mass_lbm": 484.3286441960775,
+        "best_mass_lbm": 484.3286441960775,
+        "improving_runs": 0,
+        "total_structural_solves": 72000
+      },
+      {
+        "case": "25bar",
+        "variant": "tube-sizing",
+        "runs": 6,
+        "initial_mass_lbm": 602.5532783491368,
+        "best_mass_lbm": 602.5532783491368,
+        "improving_runs": 0,
+        "total_structural_solves": 72000
+      },
+      {
+        "case": "25bar",
+        "variant": "tube-topology",
+        "runs": 10,
+        "initial_mass_lbm": 599.8602014456469,
+        "best_mass_lbm": 599.8602014456469,
+        "improving_runs": 0,
+        "total_structural_solves": 120000
+      }
+    ],
+    "original_run_count": 44,
+    "original_structural_solves": 528000,
+    "original_improving_runs": 0,
+    "extension_initial_mass_lbm": 599.8602014456469,
+    "extension_greedy_mass_lbm": 558.1070961153742,
+    "extension_savings_percent": 6.960472661738315,
+    "extension_continuation_runs": 6,
+    "extension_continuation_improving_runs": 3,
+    "extension_continuation_best_mass_lbm": 519.7906823699528,
+    "case_scope": "The individual-member extension changes grouping; no cross-model benchmark record.",
+    "evidence_level": "author-checked"
+  },
+  "limitations": "Author check only. Does not independently review physics, prove global optimality, or rerun long searches."
+}

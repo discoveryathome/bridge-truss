@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "random_cases": 100,
+  "seed": 81209,
+  "max_force_absolute_lbf": 1.127773430198431e-10,
+  "max_normalized_displacement_absolute": 9.414691248821327e-14,
+  "max_utilization_absolute": 2.5011104298755527e-12,
+  "checker": "Untouched independent pure-Python stiffness assembly and pivoted solve; shared frozen inputs only"
+}

@@ -9,3 +9,7 @@ results/summary.json for candidates awaiting review. The source discrepancies
 are not author-confirmed corrections.
 
 Clean-checkout verification at 3020a341a965f1d3fde294bd6f14568a05e1d2a4 passed all 12 tests and all 18 stored search results. Two selected searches replayed identical candidates, counts and traces. Every task card first step passed. This is still author-checked, not independent review.
+
+## 2026-10-20 — Featured-pilot contributor rehearsal
+
+Author-checked local experiment in `research/feature-trial`. Original six-row frontier unchanged after 44 continuation runs. Separate individually sized 25-bar model, frozen before optimization, yielded 13.348% reduction from the expanded grouped incumbent. Not an original benchmark record; not accepted into the frontier. Conditional feature recommendation and replay evidence in REPORT.md / VERIFY.json. No independent reviewer or physical certification.

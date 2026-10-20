@@ -1,0 +1,339 @@
+{
+  "results": [
+    {
+      "case": "10bar",
+      "mask": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "seconds": 0.7368285830598325,
+      "self_stress_dimension": 1,
+      "variables": 757,
+      "binary_variables": 378,
+      "constraints": 1549,
+      "force_coordinate_bounds": [
+        [
+          -2.5514817669347627,
+          8.32759293953917
+        ]
+      ],
+      "witness_constraint_violation": null,
+      "solver_bound": null,
+      "gap": null,
+      "nodes": null,
+      "cutoff": 5327.180567842748
+    },
+    {
+      "case": "10bar",
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "seconds": 20.006302042049356,
+      "self_stress_dimension": 1,
+      "variables": 757,
+      "binary_variables": 378,
+      "constraints": 1549,
+      "force_coordinate_bounds": [
+        [
+          -1.39453590853298,
+          6.136155339717535
+        ]
+      ],
+      "witness_constraint_violation": null,
+      "solver_bound": null,
+      "gap": null,
+      "nodes": null,
+      "cutoff": 5327.180567842748
+    },
+    {
+      "case": "10bar",
+      "mask": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "status": "capacity-infeasible"
+    },
+    {
+      "case": "10bar",
+      "mask": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "seconds": 4.895363249932416,
+      "self_stress_dimension": 1,
+      "variables": 757,
+      "binary_variables": 378,
+      "constraints": 1549,
+      "force_coordinate_bounds": [
+        [
+          -1.7725003815422111,
+          5.75819086670831
+        ]
+      ],
+      "witness_constraint_violation": null,
+      "solver_bound": null,
+      "gap": null,
+      "nodes": null,
+      "cutoff": 5327.180567842748
+    },
+    {
+      "case": "10bar",
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "seconds": 20.017799417022616,
+      "self_stress_dimension": 1,
+      "variables": 757,
+      "binary_variables": 378,
+      "constraints": 1549,
+      "force_coordinate_bounds": [
+        [
+          -4.673933082096525,
+          2.732482395308227
+        ]
+      ],
+      "witness_constraint_violation": null,
+      "solver_bound": null,
+      "gap": null,
+      "nodes": null,
+      "cutoff": 5327.180567842748
+    },
+    {
+      "case": "10bar",
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "seconds": 20.038994958042167,
+      "self_stress_dimension": 1,
+      "variables": 757,
+      "binary_variables": 378,
+      "constraints": 1549,
+      "force_coordinate_bounds": [
+        [
+          -1.3945359085329818,
+          6.136155339717536
+        ]
+      ],
+      "witness_constraint_violation": null,
+      "solver_bound": null,
+      "gap": null,
+      "nodes": null,
+      "cutoff": 5327.180567842748
+    },
+    {
+      "case": "10bar",
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "status": "capacity-infeasible"
+    },
+    {
+      "case": "10bar",
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "seconds": 20.05222899990622,
+      "self_stress_dimension": 1,
+      "variables": 757,
+      "binary_variables": 378,
+      "constraints": 1549,
+      "force_coordinate_bounds": [
+        [
+          -2.9050351575280304,
+          10.802466673692095
+        ]
+      ],
+      "witness_constraint_violation": null,
+      "solver_bound": null,
+      "gap": null,
+      "nodes": null,
+      "cutoff": 5327.180567842748
+    },
+    {
+      "case": "10bar",
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "seconds": 7.44566341699101,
+      "self_stress_dimension": 1,
+      "variables": 757,
+      "binary_variables": 378,
+      "constraints": 1549,
+      "force_coordinate_bounds": [
+        [
+          -1.7725003815422082,
+          5.75819086670831
+        ]
+      ],
+      "witness_constraint_violation": null,
+      "solver_bound": null,
+      "gap": null,
+      "nodes": null,
+      "cutoff": 5327.180567842748
+    },
+    {
+      "case": "10bar",
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "seconds": 20.010719749960117,
+      "self_stress_dimension": 1,
+      "variables": 757,
+      "binary_variables": 378,
+      "constraints": 1549,
+      "force_coordinate_bounds": [
+        [
+          -6.136155339717537,
+          1.3945359085329672
+        ]
+      ],
+      "witness_constraint_violation": null,
+      "solver_bound": null,
+      "gap": null,
+      "nodes": null,
+      "cutoff": 5327.180567842748
+    },
+    {
+      "case": "10bar",
+      "mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "seconds": 20.024330290965736,
+      "self_stress_dimension": 2,
+      "variables": 1262,
+      "binary_variables": 420,
+      "constraints": 3401,
+      "force_coordinate_bounds": [
+        [
+          -5.9853270682044855,
+          8.172298870282484
+        ],
+        [
+          -3.5482919842470775,
+          9.554776985259682
+        ]
+      ],
+      "witness_constraint_violation": null,
+      "solver_bound": null,
+      "gap": null,
+      "nodes": null,
+      "cutoff": 5327.180567842748
+    }
+  ],
+  "best_mass_lbm": 5327.180567842748,
+  "scope": "All stable 9/10-member 10bar topologies; combine with determinate enumeration only if every numerical subproblem closes."
+}

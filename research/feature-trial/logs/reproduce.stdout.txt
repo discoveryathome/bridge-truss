@@ -1,0 +1,7 @@
+PASS 10bar-reference: 5490.737892494 lbm, 0.0000% savings; 3 seeds
+PASS 10bar-tube-sizing: 5692.751320722 lbm, 59.5057% savings; 3 seeds
+PASS 10bar-tube-topology: 5327.180567843 lbm, 62.1061% savings; 3 seeds
+PASS 25bar-reference: 484.328644196 lbm, 0.1485% savings; 3 seeds
+PASS 25bar-tube-sizing: 602.553278349 lbm, 46.4135% savings; 3 seeds
+PASS 25bar-tube-topology: 599.860201446 lbm, 46.6530% savings; 3 seeds
+PASS: 18 stored search results; both implementations; elapsed 0.289s

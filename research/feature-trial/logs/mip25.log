@@ -1,0 +1,61 @@
+{
+  "case": "25bar",
+  "profile": "tube-euler",
+  "scope": "fixed mask only",
+  "mask": [
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    true
+  ],
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "elapsed_seconds": 114.5072325830115,
+  "variables": 193,
+  "binary_variables": 150,
+  "constraints": 1263,
+  "displacement_bounds": [
+    0.35000000349999993,
+    0.35000000349999993,
+    4.915738820562311,
+    0.35000000349999993,
+    0.35000000349999993,
+    4.915738820562311,
+    5.924325022900913,
+    6.108467899173569,
+    4.974106823922928,
+    5.924325022900913,
+    6.108467899173569,
+    4.974106823922928,
+    5.924325022900913,
+    6.108467899173569,
+    4.974106823922929,
+    5.924325022900912,
+    6.108467899173569,
+    4.974106823922928
+  ],
+  "solver_bound": 599.8602014456469,
+  "mip_gap": 0.0,
+  "branch_nodes": 4343,
+  "candidate": {
+    "case": "25bar",
+    "profile": "tube-euler",
+    "model_sha256": "5291c9023163d70b696d644923fc2ad94bcaf07984a6f037986f13035ef42328",
+    "areas": [
+      0.0,
+      1.3,
+      2.5,
+      0.0,
+      0.0,
+      1.7,
+      2.4,
+      2.4
+    ]
+  },
+  "mass_lbm": 599.8602014456469,
+  "valid": true
+}

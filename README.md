@@ -1,3 +1,5 @@
+**Contributor trial (20 October 2026):** [featured-pilot assessment](research/feature-trial/REPORT.md) and [replay instructions](research/feature-trial/METHODS.md). This branch contains a separate exploratory model; the original frontier below is unchanged.
+
 # Lightweight structural truss optimization
 
 A LOCAL Discovery@Home research pilot maintained by **Douglas Colkitt**. Minimize

@@ -1,0 +1,18 @@
+{
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "architecture": "arm64",
+  "processor": "Apple M2",
+  "memory_bytes": 25769803776,
+  "logical_cpus": 8,
+  "physical_cpus": 8,
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.2",
+  "threads_requested": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "gpu_used": false,
+  "environment_note": "Shared original isolated setup/venv; fresh local source clone. Concurrent jobs make individual wall-time comparisons approximate. No new dependency installation."
+}

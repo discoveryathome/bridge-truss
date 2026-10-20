@@ -1,0 +1,37 @@
+{
+  "card": "bounded-search",
+  "catalog_revision": 1,
+  "seed": "ae59f86324a34a781b86cfa845d99288",
+  "base": "ed6cba1b28110a5d328b91744835edb72bbd140f",
+  "started_at": "2026-10-20T18:55:47Z",
+  "scope": "30\u201360 minute local contributor rehearsal assessing featured-pilot suitability from current incumbents",
+  "scope_status": "Original comparison unchanged; separately frozen individual-member extension added to assess design-space headroom",
+  "outcome": "mixed",
+  "evidence_level": "author-checked",
+  "original_frontier_improvements": 0,
+  "separate_extension_total_savings_percent": 13.34802990475592,
+  "not_checked": [
+    "Physical certification",
+    "Global optimality",
+    "Independent human review",
+    "Blind novice onboarding",
+    "Public audience response",
+    "72-bar optimization",
+    "Sustained community donor throughput"
+  ],
+  "next_questions": [
+    {
+      "question": "Can a reviewed portfolio sustain progress beyond its first few sessions?",
+      "first_step": "Freeze 8\u201312 motivated cases and strong common baselines, then run fresh sequential contributor sessions."
+    },
+    {
+      "question": "Do independent reviewers reproduce model assumptions and numerical results?",
+      "first_step": "Audit units, source definitions, frozen inputs and both solvers; reproduce one case in an external solver."
+    }
+  ],
+  "credit": [
+    "Douglas Colkitt: specification and maintainership",
+    "OpenAI Codex: trial design, implementation, experiments and analysis"
+  ],
+  "ai_assistance": "Same agent authored setup and trial; not blind or independent review."
+}
