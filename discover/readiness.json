@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "date": "2026-10-21",
+  "status": "local-preparation; scientific review pending",
+  "package": "research/readiness-20261021/README.md",
+  "portfolio": "research/readiness-20261021/portfolio.json",
+  "first_step": "python scripts/prepare_portfolio.py --candidate research/readiness-20261021/25bar-individual-v2-incumbent.json",
+  "external_gates": [
+    "Structural optimization/physics review",
+    "Independent model and solver replay",
+    "Independent contributor trials over sequential rounds"
+  ],
+  "preparation_status": "complete for scoped external review",
+  "independent_review": "pending",
+  "integrity_check": "python research/readiness-20261021/check_manifest.py"
+}

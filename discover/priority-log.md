@@ -10,3 +10,7 @@ metaheuristics, is needed to justify physical interpretation.
 Douglas Colkitt is the confirmed maintainer; intake remains paused in LOCAL mode.
 Review these weights after the first independent solver audit, a changed frontier,
 or 2026-11-20, whichever occurs first. No recurring automation has been scheduled.
+
+## 2026-10-21 second-cohort preparation
+
+Task-specific coordinator authorization. Refreshed cards inherit the preparation portfolio; original catalogue archived in research/readiness-20261021/catalog-before.json. Historical results are unchanged. Scientific review and public intake remain pending.

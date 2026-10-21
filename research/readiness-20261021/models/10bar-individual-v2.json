@@ -1,0 +1,221 @@
+{
+  "version": "research-portfolio-2.0.0",
+  "units": "inch, lbf, psi; mass in lbm (0.45359237 kg/lbm)",
+  "E": 10000000.0,
+  "density_lbm_in3": 0.1,
+  "model": "linear-elastic-small-displacement-pin-jointed-axial-only",
+  "self_weight": false,
+  "source": "https://doi.org/10.1590/S1678-58782004000200008",
+  "tolerance": {
+    "constraint": 1e-08,
+    "equilibrium_relative": 1e-09,
+    "min_eigenvalue_ratio": 1e-12,
+    "agreement_relative": 1e-08
+  },
+  "id": "10bar-individual-v2",
+  "dimension": 2,
+  "nodes": [
+    [
+      720,
+      360
+    ],
+    [
+      720,
+      0
+    ],
+    [
+      360,
+      360
+    ],
+    [
+      360,
+      0
+    ],
+    [
+      0,
+      360
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "members": [
+    [
+      5,
+      3
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      1
+    ]
+  ],
+  "groups": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "fixed_nodes": [
+    5,
+    6
+  ],
+  "loads": [
+    {
+      "name": "published",
+      "nodal": [
+        [
+          2,
+          0,
+          -100000
+        ],
+        [
+          4,
+          0,
+          -100000
+        ]
+      ]
+    }
+  ],
+  "stress_limit": 25000,
+  "displacement_limits": [
+    [
+      1,
+      0,
+      2.0
+    ],
+    [
+      1,
+      1,
+      2.0
+    ],
+    [
+      2,
+      0,
+      2.0
+    ],
+    [
+      2,
+      1,
+      2.0
+    ],
+    [
+      3,
+      0,
+      2.0
+    ],
+    [
+      3,
+      1,
+      2.0
+    ],
+    [
+      4,
+      0,
+      2.0
+    ],
+    [
+      4,
+      1,
+      2.0
+    ]
+  ],
+  "catalog": [
+    1.62,
+    1.8,
+    1.99,
+    2.13,
+    2.38,
+    2.62,
+    2.63,
+    2.88,
+    2.93,
+    3.09,
+    3.13,
+    3.38,
+    3.47,
+    3.55,
+    3.63,
+    3.84,
+    3.87,
+    3.88,
+    4.18,
+    4.22,
+    4.49,
+    4.59,
+    4.8,
+    4.97,
+    5.12,
+    5.74,
+    7.22,
+    7.97,
+    11.5,
+    13.5,
+    13.9,
+    14.2,
+    15.5,
+    16,
+    16.9,
+    18.8,
+    19.9,
+    22,
+    22.9,
+    26.5,
+    30,
+    33.5
+  ],
+  "profiles": {
+    "reference": {
+      "buckling": false,
+      "allow_removal": false
+    },
+    "tube-euler": {
+      "buckling": true,
+      "allow_removal": true,
+      "section": "circular annulus",
+      "inner_outer_diameter_ratio": 0.9,
+      "effective_length_factor": 1.0,
+      "buckling_safety_factor": 1.5,
+      "note": "Pilot extension, not a published benchmark. Group removal allowed. Local shell buckling excluded."
+    }
+  },
+  "source_note": "Derived research sensitivity case; load choice needs structural reviewer approval."
+}

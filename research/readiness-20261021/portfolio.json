@@ -1,0 +1,289 @@
+{
+  "formulation": "research-portfolio-2.0.0",
+  "frontier": [
+    {
+      "case": "10bar-individual-v2",
+      "object": "research/readiness-20261021/10bar-individual-v2-incumbent.json",
+      "mass_lbm": 5327.180567842748,
+      "section_count": 7,
+      "status": "author-checked model witness; engineering review pending",
+      "mass_section_comparisons": [
+        {
+          "method": "baseline",
+          "mass_lbm": 5327.180567842748,
+          "section_count": 7
+        },
+        {
+          "method": "hybrid",
+          "mass_lbm": 5327.180567842748,
+          "section_count": 7
+        }
+      ]
+    },
+    {
+      "case": "10bar-lateral-reversal-v2",
+      "object": "research/readiness-20261021/10bar-lateral-reversal-v2-incumbent.json",
+      "mass_lbm": 7417.532203584895,
+      "section_count": 4,
+      "status": "author-checked model witness; engineering review pending",
+      "mass_section_comparisons": [
+        {
+          "method": "baseline",
+          "mass_lbm": 7721.723112443905,
+          "section_count": 3
+        },
+        {
+          "method": "hybrid",
+          "mass_lbm": 7417.532203584895,
+          "section_count": 4
+        }
+      ]
+    },
+    {
+      "case": "10bar-vertical-reversal-v2",
+      "object": "research/readiness-20261021/10bar-vertical-reversal-v2-incumbent.json",
+      "mass_lbm": 8112.069344984387,
+      "section_count": 6,
+      "status": "author-checked model witness; engineering review pending",
+      "mass_section_comparisons": [
+        {
+          "method": "baseline",
+          "mass_lbm": 8112.069344984387,
+          "section_count": 6
+        },
+        {
+          "method": "hybrid",
+          "mass_lbm": 8112.069344984387,
+          "section_count": 6
+        }
+      ]
+    },
+    {
+      "case": "10bar-all-reversals-v2",
+      "object": "research/readiness-20261021/10bar-all-reversals-v2-incumbent.json",
+      "mass_lbm": 8112.069344984387,
+      "section_count": 6,
+      "status": "author-checked model witness; engineering review pending",
+      "mass_section_comparisons": [
+        {
+          "method": "baseline",
+          "mass_lbm": 8112.069344984387,
+          "section_count": 6
+        },
+        {
+          "method": "hybrid",
+          "mass_lbm": 8112.069344984387,
+          "section_count": 6
+        }
+      ]
+    },
+    {
+      "case": "25bar-individual-v2",
+      "object": "research/readiness-20261021/25bar-individual-v2-incumbent.json",
+      "mass_lbm": 519.7906823699528,
+      "section_count": 16,
+      "status": "author-checked model witness; engineering review pending",
+      "mass_section_comparisons": [
+        {
+          "method": "baseline",
+          "mass_lbm": 519.7906823699528,
+          "section_count": 16
+        },
+        {
+          "method": "hybrid",
+          "mass_lbm": 519.7906823699528,
+          "section_count": 16
+        }
+      ]
+    },
+    {
+      "case": "25bar-lateral-reversal-v2",
+      "object": "research/readiness-20261021/25bar-lateral-reversal-v2-incumbent.json",
+      "mass_lbm": 652.8208156322627,
+      "section_count": 7,
+      "status": "author-checked model witness; engineering review pending",
+      "mass_section_comparisons": [
+        {
+          "method": "baseline",
+          "mass_lbm": 652.8208156322627,
+          "section_count": 7
+        },
+        {
+          "method": "hybrid",
+          "mass_lbm": 652.8208156322627,
+          "section_count": 7
+        }
+      ]
+    },
+    {
+      "case": "25bar-vertical-reversal-v2",
+      "object": "research/readiness-20261021/25bar-vertical-reversal-v2-incumbent.json",
+      "mass_lbm": 613.7748453113464,
+      "section_count": 7,
+      "status": "author-checked model witness; engineering review pending",
+      "mass_section_comparisons": [
+        {
+          "method": "baseline",
+          "mass_lbm": 613.7748453113464,
+          "section_count": 7
+        },
+        {
+          "method": "hybrid",
+          "mass_lbm": 613.7748453113464,
+          "section_count": 7
+        }
+      ]
+    },
+    {
+      "case": "25bar-all-reversals-v2",
+      "object": "research/readiness-20261021/25bar-all-reversals-v2-incumbent.json",
+      "mass_lbm": 637.9744350314729,
+      "section_count": 7,
+      "status": "author-checked model witness; engineering review pending",
+      "mass_section_comparisons": [
+        {
+          "method": "baseline",
+          "mass_lbm": 637.9744350314729,
+          "section_count": 7
+        },
+        {
+          "method": "hybrid",
+          "mass_lbm": 637.9744350314729,
+          "section_count": 7
+        }
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "case": "10bar-individual-v2",
+      "method": "baseline",
+      "mass_lbm": 5327.180567842748,
+      "initial_mass_lbm": 5327.180567842748,
+      "structural_solves": 2000,
+      "seconds": 1.3856990420026705
+    },
+    {
+      "case": "10bar-individual-v2",
+      "method": "hybrid",
+      "mass_lbm": 5327.180567842748,
+      "initial_mass_lbm": 5327.180567842748,
+      "structural_solves": 2000,
+      "seconds": 1.0515227910364047
+    },
+    {
+      "case": "10bar-lateral-reversal-v2",
+      "method": "baseline",
+      "mass_lbm": 7721.723112443905,
+      "initial_mass_lbm": 7721.723112443905,
+      "structural_solves": 2000,
+      "seconds": 1.2029520840151235
+    },
+    {
+      "case": "10bar-lateral-reversal-v2",
+      "method": "hybrid",
+      "mass_lbm": 7417.532203584895,
+      "initial_mass_lbm": 7721.723112443905,
+      "structural_solves": 2000,
+      "seconds": 0.919465915998444
+    },
+    {
+      "case": "10bar-vertical-reversal-v2",
+      "method": "baseline",
+      "mass_lbm": 8112.069344984387,
+      "initial_mass_lbm": 8112.069344984387,
+      "structural_solves": 2000,
+      "seconds": 1.6051142500946298
+    },
+    {
+      "case": "10bar-vertical-reversal-v2",
+      "method": "hybrid",
+      "mass_lbm": 8112.069344984387,
+      "initial_mass_lbm": 8112.069344984387,
+      "structural_solves": 2000,
+      "seconds": 1.1225262919906527
+    },
+    {
+      "case": "10bar-all-reversals-v2",
+      "method": "baseline",
+      "mass_lbm": 8112.069344984387,
+      "initial_mass_lbm": 8112.069344984387,
+      "structural_solves": 2000,
+      "seconds": 1.4911952920956537
+    },
+    {
+      "case": "10bar-all-reversals-v2",
+      "method": "hybrid",
+      "mass_lbm": 8112.069344984387,
+      "initial_mass_lbm": 8112.069344984387,
+      "structural_solves": 2000,
+      "seconds": 1.4789332919754088
+    },
+    {
+      "case": "25bar-individual-v2",
+      "method": "baseline",
+      "mass_lbm": 519.7906823699528,
+      "initial_mass_lbm": 519.7906823699528,
+      "structural_solves": 2000,
+      "seconds": 1.8589952919865027
+    },
+    {
+      "case": "25bar-individual-v2",
+      "method": "hybrid",
+      "mass_lbm": 519.7906823699528,
+      "initial_mass_lbm": 519.7906823699528,
+      "structural_solves": 2000,
+      "seconds": 0.5431413339683786
+    },
+    {
+      "case": "25bar-lateral-reversal-v2",
+      "method": "baseline",
+      "mass_lbm": 652.8208156322627,
+      "initial_mass_lbm": 652.8208156322627,
+      "structural_solves": 2000,
+      "seconds": 2.949092374998145
+    },
+    {
+      "case": "25bar-lateral-reversal-v2",
+      "method": "hybrid",
+      "mass_lbm": 652.8208156322627,
+      "initial_mass_lbm": 652.8208156322627,
+      "structural_solves": 2000,
+      "seconds": 0.7980896659428254
+    },
+    {
+      "case": "25bar-vertical-reversal-v2",
+      "method": "baseline",
+      "mass_lbm": 613.7748453113464,
+      "initial_mass_lbm": 613.7748453113464,
+      "structural_solves": 2000,
+      "seconds": 2.9776222499785945
+    },
+    {
+      "case": "25bar-vertical-reversal-v2",
+      "method": "hybrid",
+      "mass_lbm": 613.7748453113464,
+      "initial_mass_lbm": 613.7748453113464,
+      "structural_solves": 2000,
+      "seconds": 0.7717208330286667
+    },
+    {
+      "case": "25bar-all-reversals-v2",
+      "method": "baseline",
+      "mass_lbm": 637.9744350314729,
+      "initial_mass_lbm": 637.9744350314729,
+      "structural_solves": 2000,
+      "seconds": 4.6620902500581
+    },
+    {
+      "case": "25bar-all-reversals-v2",
+      "method": "hybrid",
+      "mass_lbm": 637.9744350314729,
+      "initial_mass_lbm": 637.9744350314729,
+      "structural_solves": 2000,
+      "seconds": 1.0045362090459093
+    }
+  ],
+  "scope": "Eight sensitivity cases derived from two geometries; not eight independent engineering applications. Original tolerances, sections, physics and solvers retained.",
+  "objectives": "Minimize mass; report section count separately. No unreviewed manufacturing penalty combined into score."
+}

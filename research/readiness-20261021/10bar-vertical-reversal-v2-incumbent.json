@@ -1,0 +1,18 @@
+{
+  "case": "10bar-vertical-reversal-v2",
+  "profile": "tube-euler",
+  "model_sha256": "898f72a3793a33586f54b3f244734cca1b77188fe0ccfd0e3d9d47017a9a54bb",
+  "areas": [
+    22.0,
+    16.9,
+    33.5,
+    1.62,
+    13.5,
+    16.9,
+    33.5,
+    22.0,
+    0.0,
+    30.0
+  ],
+  "claimed_mass_lbm": 8112.069344984387
+}
