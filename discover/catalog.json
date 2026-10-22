@@ -3,7 +3,7 @@
   "priority_revision": 2,
   "assessed_on": "2026-10-21",
   "priority_log": "discover/priority-log.md",
-  "status": "Open to pre-release contributions and expert-agent review; scientific evidence retains its recorded review status and requires acceptance review.",
+  "status": "Open to pre-release contributions and expert-agent review; listed on the Discovery@Home hub. Replication and verification come before search; scientific evidence retains its recorded review status and requires acceptance review.",
   "tracks": [
     {
       "id": "replication",
@@ -94,7 +94,7 @@
             "model",
             "measured"
           ],
-          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible local handoff."
+          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible handoff."
         },
         {
           "id": "10bar-lateral-reversal-v2",
@@ -122,7 +122,7 @@
             "model",
             "measured"
           ],
-          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible local handoff."
+          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible handoff."
         },
         {
           "id": "10bar-vertical-reversal-v2",
@@ -150,7 +150,7 @@
             "model",
             "measured"
           ],
-          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible local handoff."
+          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible handoff."
         },
         {
           "id": "10bar-all-reversals-v2",
@@ -178,7 +178,7 @@
             "model",
             "measured"
           ],
-          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible local handoff."
+          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible handoff."
         },
         {
           "id": "25bar-individual-v2",
@@ -206,7 +206,7 @@
             "model",
             "measured"
           ],
-          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible local handoff."
+          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible handoff."
         },
         {
           "id": "25bar-lateral-reversal-v2",
@@ -234,7 +234,7 @@
             "model",
             "measured"
           ],
-          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible local handoff."
+          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible handoff."
         },
         {
           "id": "25bar-vertical-reversal-v2",
@@ -262,7 +262,7 @@
             "model",
             "measured"
           ],
-          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible local handoff."
+          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible handoff."
         },
         {
           "id": "25bar-all-reversals-v2",
@@ -290,7 +290,7 @@
             "model",
             "measured"
           ],
-          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible local handoff."
+          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible handoff."
         }
       ]
     },

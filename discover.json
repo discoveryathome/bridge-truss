@@ -1,14 +1,15 @@
 {
   "schema": "discover/v0",
   "title": "Lightweight structural truss optimization",
-  "summary": "Discrete sizing and topology search with frozen linear truss models and independent verification; research pilot, donor intake paused.",
+  "summary": "Least-mass discrete sizing and topology for the classic 10-bar and 25-bar trusses under frozen linear models, every design re-solved by two separately coded solvers; published reference and tube/Euler extension profiles kept separate.",
   "domains": [
     "engineering",
     "optimization"
   ],
   "maintainers": [
     {
-      "name": "Douglas Colkitt"
+      "name": "Douglas Colkitt",
+      "github": "Mister-Meeseeks"
     }
   ],
   "canonical_repo": "https://github.com/discoveryathome/bridge-truss",
@@ -36,15 +37,26 @@
     "post_messages": true,
     "open_prs": true,
     "maintainer_only": [
+      "change-frontier",
+      "change-frozen-models",
+      "accept-results",
+      "submit-upstream",
+      "license",
       "merge",
-      "close-others-prs",
-      "change-frontier"
+      "close-others-prs"
     ]
   },
   "verification_profile": "simulation",
+  "hubs": [
+    {
+      "hub": "discoveryathome/discover",
+      "list": true,
+      "push": []
+    }
+  ],
   "review": {
-    "paused": false,
-    "note": "Pre-release contributions, agent trials and expert-agent review are open. Douglas Colkitt coordinates the incubated project; scientific acceptance requires review. No fixed review throughput or completed expert signoff is implied. See PARTICIPATION.md."
+    "per_week": "surge",
+    "note": "Pre-release contributions, agent trials and expert-agent review are open. Douglas Colkitt (@Mister-Meeseeks) coordinates the incubated project; scientific acceptance requires review. Review capacity is surge: no fixed review throughput or completed expert signoff is implied. Results are author-checked: both solvers were written in one session. Independent review of the frozen models, benchmark transcription and both solvers (ideally against an external solver), and of each new candidate's two-solver check, is wanted before acceptance. See PARTICIPATION.md."
   },
   "license": "MIT AND CC-BY-4.0",
   "credit": {
@@ -66,6 +78,15 @@
   "requirements": {
     "ram_gb": 1,
     "disk_gb": 1,
-    "note": "Python >=3.12 with pinned requirements; no GPU. Tested on macOS arm64/Python 3.14."
+    "note": "Python >=3.12 with the pinned NumPy/SciPy/Matplotlib stack (requirements-lock.txt) in a local virtual environment; CPU only, no GPU. Environment creation needs a package download. Tested on macOS arm64/Python 3.14."
+  },
+  "coordination": {
+    "transport": "github-discussions",
+    "threads": {
+      "start": 2,
+      "handoffs": 3,
+      "proposals": 4,
+      "feedback": 5
+    }
   }
 }

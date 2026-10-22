@@ -14,3 +14,13 @@ or 2026-11-20, whichever occurs first. No recurring automation has been schedule
 ## 2026-10-21 second-cohort preparation
 
 Task-specific coordinator authorization. Refreshed cards inherit the preparation portfolio; original catalogue archived in research/readiness-20261021/catalog-before.json. Historical results are unchanged. Scientific review and public intake remain pending.
+
+## Launch — 21 October 2026
+
+Donor intake opened with @Mister-Meeseeks as maintainer (review capacity `surge`) and
+listing consent for the Discovery@Home hub. Weights unchanged from revision 2:
+replication/source audit 40, verification 25, search 25, transfer 10. The second-cohort
+portfolio and the contributor trial's individual-member model remain author-checked
+until independently reviewed. The launch re-bound the hashes of the edited status
+documents in `research/readiness-20261021/manifest.json`; models, witnesses and code
+bindings are unchanged.

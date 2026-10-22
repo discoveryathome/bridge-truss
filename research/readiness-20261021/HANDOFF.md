@@ -1,9 +1,13 @@
-# Local preparation handoff
+# Preparation handoff
 
-The preparation work is committed locally on `readiness-next6-20261021`. Read
+The project opened to donated sessions on 2026-10-21. New claims and handoffs go in the
+[Handoffs thread](https://github.com/discoveryathome/bridge-truss/discussions/3); this file
+keeps the preparation handoff, which is still the next step.
+
+The preparation work was merged from `readiness-next6-20261021`. Read
 [README.md](README.md) for results and commands and [REVIEW.md](REVIEW.md) for
 outstanding questions. The unfilled review receipt is intentional. No reviewer
-consent, external posting, or public donor intake is asserted.
+has signed off.
 
 Run `python research/readiness-20261021/check_manifest.py` from the repository root
 to verify the prepared source/artifact bindings before review. `first-steps.json`

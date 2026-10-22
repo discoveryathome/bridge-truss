@@ -1,56 +1,66 @@
 {
   "retrieved_on": "2026-10-20",
-  "note": "Raw fetched sources remain in sibling setup/sources; not needed to verify numerical results. Copyright remains with original authors. Benchmark facts are transcribed into model JSON.",
+  "note": "Raw fetched sources were kept outside the repository during setup and are not redistributed here (\"stored\": false); they are not needed to verify numerical results. Copyright remains with the original authors. Benchmark geometry, loads, catalogues and published design vectors are factual data transcribed into benchmarks/*.json and docs/72bar-survey.json, each citing its source; credit Kripka (2004) and Kaveh & Khadem Hosseini (2012) when using them.",
   "files": [
     {
       "file": "start.md",
       "sha256": "b2dcb025034a0710ea4bc040a0f01b58c7f469bea7e45f552a68b17e415b2142",
-      "url": "https://discoveryathome.org/v0/start.md"
+      "url": "https://discoveryathome.org/v0/start.md",
+      "stored": false
     },
     {
       "file": "spec-v0.md",
       "sha256": "25bbb3c2ecb1b453ecb3e1a05d22c76cc1ba1d4de1f2541ad1557f2b43467c86",
-      "url": "https://raw.githubusercontent.com/discoveryathome/discover/main/spec/v0.md"
+      "url": "https://raw.githubusercontent.com/discoveryathome/discover/main/spec/v0.md",
+      "stored": false
     },
     {
       "file": "kaveh2012.pdf",
       "sha256": "8f6d9d030a068e5c527f0705343633f3917de8f625cf1d9e25955a515604654c",
-      "url": "https://pp.bme.hu/ci/article/download/460/217"
+      "url": "https://pp.bme.hu/ci/article/download/460/217",
+      "stored": false
     },
     {
       "file": "brutting2022.html",
       "sha256": "4bf0d80d48eaa3e3fccb4728abda87ece7a557bcb3d7b60f2eb3bb29e41972a4",
-      "url": "https://link.springer.com/article/10.1007/s00158-022-03325-7"
+      "url": "https://link.springer.com/article/10.1007/s00158-022-03325-7",
+      "stored": false
     },
     {
       "file": "f1.gif",
       "sha256": "49bd6fc41ea30f60bcd59fce1c00ad7da88abde295c93c88dff4d571c06afcee",
-      "url": "https://minio.scielo.br/documentstore/1806-3691/vZNDbfZ66DHqFZc3HPcrj4k/6764f7a224abbf7dcc907ce95db4d874f1dc1f2b.gif"
+      "url": "https://minio.scielo.br/documentstore/1806-3691/vZNDbfZ66DHqFZc3HPcrj4k/6764f7a224abbf7dcc907ce95db4d874f1dc1f2b.gif",
+      "stored": false
     },
     {
       "file": "f2.gif",
       "sha256": "68933b235f4a1138a5a412aa330ce7053a9348388cf3057be654445cf53789d3",
-      "url": "https://minio.scielo.br/documentstore/1806-3691/vZNDbfZ66DHqFZc3HPcrj4k/2105cb285d7dd8fc370a85d16c9cf1aa04430967.gif"
+      "url": "https://minio.scielo.br/documentstore/1806-3691/vZNDbfZ66DHqFZc3HPcrj4k/2105cb285d7dd8fc370a85d16c9cf1aa04430967.gif",
+      "stored": false
     },
     {
       "file": "t1.gif",
       "sha256": "9f8165de6665bf530109e8773fe3a04d95af0e5ed34af086f3cde5592e979ba5",
-      "url": "https://minio.scielo.br/documentstore/1806-3691/vZNDbfZ66DHqFZc3HPcrj4k/89038c05ecabc6a3a21fbe2abc11e24122e28238.gif"
+      "url": "https://minio.scielo.br/documentstore/1806-3691/vZNDbfZ66DHqFZc3HPcrj4k/89038c05ecabc6a3a21fbe2abc11e24122e28238.gif",
+      "stored": false
     },
     {
       "file": "t2.gif",
       "sha256": "aa8ea5aec7643c957af51ef254a0dfc694b889e20ce6867ccb4add0865481ea1",
-      "url": "https://minio.scielo.br/documentstore/1806-3691/vZNDbfZ66DHqFZc3HPcrj4k/d1262fa65cf7ebd46adf7790d57a29a937418df5.gif"
+      "url": "https://minio.scielo.br/documentstore/1806-3691/vZNDbfZ66DHqFZc3HPcrj4k/d1262fa65cf7ebd46adf7790d57a29a937418df5.gif",
+      "stored": false
     },
     {
       "file": "t3.gif",
       "sha256": "9ce1d852091562de4afd9c0929f0dea59039637e90690508737a7391cff0502c",
-      "url": "https://minio.scielo.br/documentstore/1806-3691/vZNDbfZ66DHqFZc3HPcrj4k/34bb76069c05c044f63b95a043136f81a4bdda9e.gif"
+      "url": "https://minio.scielo.br/documentstore/1806-3691/vZNDbfZ66DHqFZc3HPcrj4k/34bb76069c05c044f63b95a043136f81a4bdda9e.gif",
+      "stored": false
     },
     {
       "file": "t4.gif",
       "sha256": "57183e73e8df9f28dab365efd1403fbc745dd45f49ba3bd63030754c628915bd",
-      "url": "https://minio.scielo.br/documentstore/1806-3691/vZNDbfZ66DHqFZc3HPcrj4k/94c459eaed0555f014ce4ff81e33b9be4ff48c8b.gif"
+      "url": "https://minio.scielo.br/documentstore/1806-3691/vZNDbfZ66DHqFZc3HPcrj4k/94c459eaed0555f014ce4ff81e33b9be4ff48c8b.gif",
+      "stored": false
     }
   ]
 }

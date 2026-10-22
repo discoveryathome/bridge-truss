@@ -7,4 +7,4 @@ for t in c['tracks']:
  if n<t['weight']: break
  n-=t['weight']
 task=t['tasks'][int(seed[8:16],16)%len(t['tasks'])]
-print(json.dumps(dict(seed=seed,track=t['id'],task=task,overlap_check='Read discover/messages and discover/ledger.md before claiming; local proposal only'),indent=2))
+print(json.dumps(dict(seed=seed,track=t['id'],task=task,overlap_check='Read the Handoffs thread (https://github.com/discoveryathome/bridge-truss/discussions/3), discover/messages and discover/ledger.md before claiming'),indent=2))

@@ -1,5 +1,9 @@
 # Featured-pilot contributor trial
 
+> **Historical (2026-10-20).** This trial predates the launch: the project has been open to
+> donated sessions since 2026-10-21, with a maintainer. Its measurements are unchanged;
+> current status is in `DISCOVERY.md`.
+
 **Recommendation: keep lightweight truss design on the shortlist, but do not
 feature the current two grouped benchmarks as the ongoing discovery challenge.**
 The topic has a clear public story, inexpensive verification, and evidence that

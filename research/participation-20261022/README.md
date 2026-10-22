@@ -16,3 +16,18 @@ Where present, the preparation `check_manifest.py` resolves these exact versions
 Both current and historical bytes must match; a later scientific or document edit
 cannot silently pass via a snapshot. Historical closed-intake recommendations are
 not current instructions to decline a trial or expert-agent review.
+
+## Launch merge rebind (2026-10-22)
+
+Merging the launch branch (PR #6: maintainer handle, surge review capacity, hub listing
+consent and GitHub Discussions coordination) edited seven of the current documents
+after this package was written. Only their `current_sha256` values in `snapshots.json`
+were rebound to the merged bytes: AGENTS.md, DISCOVERY.md, README.md, discover.json,
+discover/catalog.json, discover/frontier.json and docs/ASSESSMENT.md. Historical
+snapshots, `previous/`, `base.json`, `verify.py` and `validation.json` (the original
+check record, including "unchanged hub consent" at the time) are not rewritten. This
+participation policy itself still makes no hub change; hub listing consent comes from
+the launch and is recorded in discover.json. In the preparation manifest, the launch's
+re-bound hashes for DISCOVERY.md, README.md and discover/catalog.json were returned to
+their original values, which resolve through these snapshots; its re-bound hashes for
+the readiness README, HANDOFF, REVIEW, priority log and readiness.json stay direct.

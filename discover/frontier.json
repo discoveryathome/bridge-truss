@@ -1,7 +1,7 @@
 {
   "schema": "discover-frontier/v0",
   "statement": "Six feasible local incumbent rows for two frozen truss models, with reference sizing and tube/Euler sizing/topology variants; every row recomputed by two implementations. Selected published baselines reproduce; no global optimum or physical safety claim.",
-  "status": "Open to pre-release contributions and expert-agent review; scientific evidence retains its recorded review status and requires acceptance review.",
+  "status": "Open to pre-release contributions and expert-agent review; coordinator @Mister-Meeseeks. Author-checked; scientific evidence retains its recorded review status and requires acceptance review; frontier changes are a maintainer decision.",
   "evidence_level": [
     "author-checked"
   ],
