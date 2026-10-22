@@ -1,0 +1,17 @@
+{
+  "case": "10bar-individual-v2",
+  "profile": "tube-euler",
+  "model_sha256": "b1a29b819d21a949cd541bcb69dc4ee3476c9fa049157377a7f10bd977978e38",
+  "areas": [
+    26.5,
+    1.62,
+    22.9,
+    18.8,
+    0.0,
+    1.62,
+    7.22,
+    30,
+    16.9,
+    0.0
+  ]
+}

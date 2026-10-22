@@ -1,0 +1,153 @@
+[
+  {
+    "project": "truss",
+    "task": "source-audit",
+    "command": [
+      "python3",
+      "scripts/audit.py",
+      "sources"
+    ],
+    "returncode": 0,
+    "seconds": 0.5934278329368681,
+    "log": "research/readiness-20261021/first-steps/source-audit.log",
+    "log_sha256": "0756d018e942823743ce3838fe1a96979f62b44bad6b8ceb84a1c61c995ed031"
+  },
+  {
+    "project": "truss",
+    "task": "solver-audit",
+    "command": [
+      "python3",
+      "scripts/reproduce.py",
+      "--tests-only"
+    ],
+    "returncode": 0,
+    "seconds": 1.0636307500535622,
+    "log": "research/readiness-20261021/first-steps/solver-audit.log",
+    "log_sha256": "500c5591c68f53d19a4676cd532a1906afa08c007c1e5fbeefed8139f9ca5395"
+  },
+  {
+    "project": "truss",
+    "task": "10bar-individual-v2",
+    "command": [
+      "python",
+      "scripts/prepare_portfolio.py",
+      "--candidate",
+      "research/readiness-20261021/10bar-individual-v2-incumbent.json"
+    ],
+    "returncode": 0,
+    "seconds": 0.8577426250558347,
+    "log": "research/readiness-20261021/first-steps/10bar-individual-v2.log",
+    "log_sha256": "ac0f45fb44c1535aeabfead2121bf324213212e48b926e12fd7e5d95bdfcf694"
+  },
+  {
+    "project": "truss",
+    "task": "10bar-lateral-reversal-v2",
+    "command": [
+      "python",
+      "scripts/prepare_portfolio.py",
+      "--candidate",
+      "research/readiness-20261021/10bar-lateral-reversal-v2-incumbent.json"
+    ],
+    "returncode": 0,
+    "seconds": 0.7719029590953141,
+    "log": "research/readiness-20261021/first-steps/10bar-lateral-reversal-v2.log",
+    "log_sha256": "49f70430e19f42257e52051fc81708c19cde31dd016a6c80b80a6f0821328610"
+  },
+  {
+    "project": "truss",
+    "task": "10bar-vertical-reversal-v2",
+    "command": [
+      "python",
+      "scripts/prepare_portfolio.py",
+      "--candidate",
+      "research/readiness-20261021/10bar-vertical-reversal-v2-incumbent.json"
+    ],
+    "returncode": 0,
+    "seconds": 0.732979292050004,
+    "log": "research/readiness-20261021/first-steps/10bar-vertical-reversal-v2.log",
+    "log_sha256": "d2223c49e504e981466714c609105225a8ffb432182733ce2416a8531aa16265"
+  },
+  {
+    "project": "truss",
+    "task": "10bar-all-reversals-v2",
+    "command": [
+      "python",
+      "scripts/prepare_portfolio.py",
+      "--candidate",
+      "research/readiness-20261021/10bar-all-reversals-v2-incumbent.json"
+    ],
+    "returncode": 0,
+    "seconds": 0.7830912920180708,
+    "log": "research/readiness-20261021/first-steps/10bar-all-reversals-v2.log",
+    "log_sha256": "35d75389f810e0b957a7f7f5b664899a92621b2590fad37e01a4ef286bb8861d"
+  },
+  {
+    "project": "truss",
+    "task": "25bar-individual-v2",
+    "command": [
+      "python",
+      "scripts/prepare_portfolio.py",
+      "--candidate",
+      "research/readiness-20261021/25bar-individual-v2-incumbent.json"
+    ],
+    "returncode": 0,
+    "seconds": 0.7692486670566723,
+    "log": "research/readiness-20261021/first-steps/25bar-individual-v2.log",
+    "log_sha256": "e5b43f6210d3819c4663c88cf3150f6efa4b933b8cf35f1bfbfede8ca5047656"
+  },
+  {
+    "project": "truss",
+    "task": "25bar-lateral-reversal-v2",
+    "command": [
+      "python",
+      "scripts/prepare_portfolio.py",
+      "--candidate",
+      "research/readiness-20261021/25bar-lateral-reversal-v2-incumbent.json"
+    ],
+    "returncode": 0,
+    "seconds": 0.6792309590382501,
+    "log": "research/readiness-20261021/first-steps/25bar-lateral-reversal-v2.log",
+    "log_sha256": "8e2cd59cc68a7ee8ac108515db83075dee9eee25813b389187de1f774398e7d6"
+  },
+  {
+    "project": "truss",
+    "task": "25bar-vertical-reversal-v2",
+    "command": [
+      "python",
+      "scripts/prepare_portfolio.py",
+      "--candidate",
+      "research/readiness-20261021/25bar-vertical-reversal-v2-incumbent.json"
+    ],
+    "returncode": 0,
+    "seconds": 0.7720271250000224,
+    "log": "research/readiness-20261021/first-steps/25bar-vertical-reversal-v2.log",
+    "log_sha256": "e1fe811a45b78a36db67f48e4e3cb4b0a1cc19b2b620403b6cfb00ab83483043"
+  },
+  {
+    "project": "truss",
+    "task": "25bar-all-reversals-v2",
+    "command": [
+      "python",
+      "scripts/prepare_portfolio.py",
+      "--candidate",
+      "research/readiness-20261021/25bar-all-reversals-v2-incumbent.json"
+    ],
+    "returncode": 0,
+    "seconds": 0.7162722080247477,
+    "log": "research/readiness-20261021/first-steps/25bar-all-reversals-v2.log",
+    "log_sha256": "41e63e4b0eeebeb9b0f483a8414c4cae91ef3bff98d7a1aa4192ac06eda66aec"
+  },
+  {
+    "project": "truss",
+    "task": "transfer-audit",
+    "command": [
+      "python3",
+      "scripts/audit.py",
+      "transfer"
+    ],
+    "returncode": 0,
+    "seconds": 0.40560254105366766,
+    "log": "research/readiness-20261021/first-steps/transfer-audit.log",
+    "log_sha256": "e80169f070fd4e6fbc456350f5cfe88a974d615d5604d08c24087488d4cf9449"
+  }
+]

@@ -15,3 +15,7 @@ Do not repeat settled dead ends: arbitrary penalty scores are not feasible resul
 Credit proposed: name contributors in CONTRIBUTORS.md and result packages with their consent, preserve citations, identify AI assistance, and credit reviewers separately. No automatic paper authorship is promised. Code is MIT; original prose/figures are CC BY 4.0. Source documents keep their original licenses. These license choices were explicitly approved by the maintainer.
 
 Verification is inexpensive enough for short donor sessions. Useful donor discovery includes rejected published vectors, independent solver disagreements, reproducible improvements and bounds. Practical transfer would require engineering review, complete load combinations and code-specific models, connections, manufacturable sections, nonlinear/imperfection studies and physical validation. No delivered object is suitable for construction on the strength of this pilot.
+
+## Second-cohort preparation (2026-10-21)
+
+For the refreshed task pool, read [the preparation package](research/readiness-20261021/README.md) and `discover/readiness.json`. These versioned portfolios provide the starting witnesses for the new catalogue cards. They do not retroactively change historical experiments or grant public donor intake.

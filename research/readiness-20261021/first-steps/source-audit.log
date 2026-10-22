@@ -1,0 +1,6 @@
+10bar published {"reported_mass_lbm": 5490.74, "computed_mass_lbm": 5490.737892493558, "feasible": true, "displacement_utilization": 0.9994714234419679}
+10bar additional_published {"reported_mass_lbm": 5479.93, "computed_mass_lbm": 5479.937892493558, "feasible": false, "displacement_utilization": 1.0019460530496498}
+25bar published {"reported_mass_lbm": 485.05, "computed_mass_lbm": 485.0487974505328, "feasible": true, "displacement_utilization": 0.9985871859803551}
+25bar published_disputed {"reported_mass_lbm": 484.33, "computed_mass_lbm": 482.8286441960775, "feasible": false, "displacement_utilization": 1.0017160223714099}
+72bar mass-only audit 379.651895187904 Survey-only; not admitted to the frozen optimization portfolio
+

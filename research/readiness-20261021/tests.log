@@ -1,0 +1,18 @@
+test_all_models_and_wrong_model_rejection (test_portfolio.PortfolioTests.test_all_models_and_wrong_model_rejection) ... ok
+test_bad_inputs (test_solver.StructuralTests.test_bad_inputs) ... ok
+test_buckling_analytical (test_solver.StructuralTests.test_buckling_analytical) ... ok
+test_disconnected (test_solver.StructuralTests.test_disconnected) ... ok
+test_disputed_25bar (test_solver.StructuralTests.test_disputed_25bar) ... ok
+test_load_scaling_and_multiple_cases (test_solver.StructuralTests.test_load_scaling_and_multiple_cases) ... ok
+test_orientation_invariance (test_solver.StructuralTests.test_orientation_invariance) ... ok
+test_overstress_displacement (test_solver.StructuralTests.test_overstress_displacement) ... ok
+test_published_replication (test_solver.StructuralTests.test_published_replication) ... ok
+test_random_crosscheck (test_solver.StructuralTests.test_random_crosscheck) ... ok
+test_single_bar_analytical (test_solver.StructuralTests.test_single_bar_analytical) ... ok
+test_tenbar_later_design (test_solver.StructuralTests.test_tenbar_later_design) ... ok
+test_wrong_claim_and_model (test_solver.StructuralTests.test_wrong_claim_and_model) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.411s
+
+OK

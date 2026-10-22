@@ -1,0 +1,4 @@
+10bar {"mass_kg": 2416.368459185738, "stress_utilization": 0.7834978184892496, "displacement_utilization": 0.9956062548862894, "buckling_utilization": 0.990924203571433, "condition_number": 85.63991658206297}
+25bar {"mass_kg": 272.0920104424084, "stress_utilization": 0.16679522179341613, "displacement_utilization": 0.9928066406200903, "buckling_utilization": 0.9927356908574337, "condition_number": 45.4623188331617}
+Transfer obligations: self-weight/load envelope; local/global buckling; imperfections; connections; fabrication; design-code review; physical validation. No construction certification.
+

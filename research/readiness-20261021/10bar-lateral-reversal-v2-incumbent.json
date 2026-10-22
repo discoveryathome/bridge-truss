@@ -1,0 +1,18 @@
+{
+  "case": "10bar-lateral-reversal-v2",
+  "profile": "tube-euler",
+  "model_sha256": "917777816a4ed86180cd0cfb1ca9980456d555b95d670ae7f98253bca0ccf946",
+  "areas": [
+    26.5,
+    26.5,
+    33.5,
+    1.62,
+    1.62,
+    26.5,
+    33.5,
+    0.0,
+    0.0,
+    30.0
+  ],
+  "claimed_mass_lbm": 7417.532203584895
+}
