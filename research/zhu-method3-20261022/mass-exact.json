@@ -1,0 +1,325 @@
+{
+  "audit_kind": "author-internal AI arithmetic check; not external scientific review",
+  "model_file": "25bar.json",
+  "model_sha256": "5291c9023163d70b696d644923fc2ad94bcaf07984a6f037986f13035ef42328",
+  "script_sha256": "5f686aef1f4e2e081736666cff50af351ddfb16b57cf35b5175fa42e5a230127",
+  "sqrt_enclosure_scale": "1000000000000000000000000000000",
+  "density_lbm_in3": "1/10",
+  "rounding_window_lbm": "[562.925, 562.935)",
+  "groups": [
+    {
+      "group_one_based": 1,
+      "member_ids": [
+        1
+      ],
+      "squared_member_lengths_in2": {
+        "5625": 1
+      },
+      "exact_total_length_in": "75*sqrt(1)"
+    },
+    {
+      "group_one_based": 2,
+      "member_ids": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "squared_member_lengths_in2": {
+        "68125/4": 4
+      },
+      "exact_total_length_in": "50*sqrt(109)"
+    },
+    {
+      "group_one_based": 3,
+      "member_ids": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "squared_member_lengths_in2": {
+        "45625/4": 4
+      },
+      "exact_total_length_in": "50*sqrt(73)"
+    },
+    {
+      "group_one_based": 4,
+      "member_ids": [
+        10,
+        11
+      ],
+      "squared_member_lengths_in2": {
+        "5625": 2
+      },
+      "exact_total_length_in": "150*sqrt(1)"
+    },
+    {
+      "group_one_based": 5,
+      "member_ids": [
+        12,
+        13
+      ],
+      "squared_member_lengths_in2": {
+        "5625": 2
+      },
+      "exact_total_length_in": "150*sqrt(1)"
+    },
+    {
+      "group_one_based": 6,
+      "member_ids": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "squared_member_lengths_in2": {
+        "65625/2": 4
+      },
+      "exact_total_length_in": "50*sqrt(210)"
+    },
+    {
+      "group_one_based": 7,
+      "member_ids": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "squared_member_lengths_in2": {
+        "65625/2": 4
+      },
+      "exact_total_length_in": "50*sqrt(210)"
+    },
+    {
+      "group_one_based": 8,
+      "member_ids": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "squared_member_lengths_in2": {
+        "35625/2": 4
+      },
+      "exact_total_length_in": "50*sqrt(114)"
+    }
+  ],
+  "printed_areas_in2": [
+    "1/10",
+    "9/5",
+    "13/5",
+    "1/10",
+    "1/10",
+    "4/5",
+    "21/10",
+    "13/5"
+  ],
+  "zero_change_mass_lbm": {
+    "lower_fraction": "1394279468413691904649054140689383/2500000000000000000000000000000",
+    "upper_fraction": "13942794684136919046490541406893929/25000000000000000000000000000000",
+    "decimal_outward_bounds": [
+      "557.711787365476761859621656275753",
+      "557.711787365476761859621656275758"
+    ]
+  },
+  "reported_minus_zero_change_lbm": {
+    "lower_fraction": "130455315863080953509458593106071/25000000000000000000000000000000",
+    "upper_fraction": "13045531586308095350945859310617/2500000000000000000000000000000",
+    "decimal_outward_bounds": [
+      "5.218212634523238140378343724242",
+      "5.218212634523238140378343724247"
+    ]
+  },
+  "zero_change_status": "excluded",
+  "one_change_checked_by_group": [
+    29,
+    29,
+    29,
+    29,
+    29,
+    29,
+    29,
+    29
+  ],
+  "one_change_count": 232,
+  "one_change_matches": [
+    {
+      "group_one_based": 2,
+      "old_area_in2": "9/5",
+      "new_area_in2": "19/10",
+      "areas_in2": [
+        "1/10",
+        "19/10",
+        "13/5",
+        "1/10",
+        "1/10",
+        "4/5",
+        "21/10",
+        "13/5"
+      ],
+      "mass_lbm": {
+        "lower_fraction": "43979057860932190386679729163049/78125000000000000000000000000",
+        "upper_fraction": "703664925774915046186875666608789/1250000000000000000000000000000",
+        "decimal_outward_bounds": [
+          "562.931940619932036949500533287027",
+          "562.931940619932036949500533287032"
+        ]
+      }
+    }
+  ],
+  "one_change_excluded_count": 231,
+  "unresolved_count": 0,
+  "closest_excluded_candidate": {
+    "group_one_based": 1,
+    "old_area_in2": "1/10",
+    "new_area_in2": "4/5",
+    "areas_in2": [
+      "4/5",
+      "9/5",
+      "13/5",
+      "1/10",
+      "1/10",
+      "4/5",
+      "21/10",
+      "13/5"
+    ],
+    "mass_lbm": {
+      "lower_fraction": "1407404468413691904649054140689383/2500000000000000000000000000000",
+      "upper_fraction": "14074044684136919046490541406893929/25000000000000000000000000000000",
+      "decimal_outward_bounds": [
+        "562.961787365476761859621656275753",
+        "562.961787365476761859621656275758"
+      ]
+    }
+  },
+  "closest_excluded_distance_to_window_lower_bound_lbm": "66968413691904649054140689383/2500000000000000000000000000000",
+  "equal_total_length_group_pairs_one_based": [
+    [
+      4,
+      5
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "explicit_equal_mass_family_g6_g7": [
+    [
+      "1/10",
+      "14/5"
+    ],
+    [
+      "3/10",
+      "13/5"
+    ],
+    [
+      "2/5",
+      "5/2"
+    ],
+    [
+      "1/2",
+      "12/5"
+    ],
+    [
+      "3/5",
+      "23/10"
+    ],
+    [
+      "7/10",
+      "11/5"
+    ],
+    [
+      "4/5",
+      "21/10"
+    ],
+    [
+      "9/10",
+      "2"
+    ],
+    [
+      "1",
+      "19/10"
+    ],
+    [
+      "11/10",
+      "9/5"
+    ],
+    [
+      "6/5",
+      "17/10"
+    ],
+    [
+      "13/10",
+      "8/5"
+    ],
+    [
+      "7/5",
+      "3/2"
+    ],
+    [
+      "3/2",
+      "7/5"
+    ],
+    [
+      "8/5",
+      "13/10"
+    ],
+    [
+      "17/10",
+      "6/5"
+    ],
+    [
+      "9/5",
+      "11/10"
+    ],
+    [
+      "19/10",
+      "1"
+    ],
+    [
+      "2",
+      "9/10"
+    ],
+    [
+      "21/10",
+      "4/5"
+    ],
+    [
+      "11/5",
+      "7/10"
+    ],
+    [
+      "23/10",
+      "3/5"
+    ],
+    [
+      "12/5",
+      "1/2"
+    ],
+    [
+      "5/2",
+      "2/5"
+    ],
+    [
+      "13/5",
+      "3/10"
+    ],
+    [
+      "14/5",
+      "1/10"
+    ]
+  ],
+  "family_count": 26,
+  "three_change_example_areas_in2": [
+    "1/10",
+    "19/10",
+    "13/5",
+    "1/10",
+    "1/10",
+    "9/10",
+    "2",
+    "13/5"
+  ],
+  "limits": "Mass only; no stiffness, stress, displacement, historical-source adjudication, or exhaustive multi-entry search."
+}

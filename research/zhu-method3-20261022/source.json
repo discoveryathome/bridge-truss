@@ -1,0 +1,37 @@
+{
+  "source": "Kripka (2004), Discrete optimization of trusses by simulated annealing, Table 4, method 3 (attributed there to Zhu, 1986)",
+  "doi": "10.1590/S1678-58782004000200008",
+  "table_url": "https://minio.scielo.br/documentstore/1806-3691/vZNDbfZ66DHqFZc3HPcrj4k/94c459eaed0555f014ce4ff81e33b9be4ff48c8b.gif",
+  "table_sha256": "57183e73e8df9f28dab365efd1403fbc745dd45f49ba3bd63030754c628915bd",
+  "retrieved_on": "2026-10-22",
+  "publisher_pdf": {
+    "url": "https://new.scielo.br/j/jbsmse/a/vZNDbfZ66DHqFZc3HPcrj4k/?lang=en&format=pdf",
+    "sha256": "f70802f0f92a8850bc9af314c350b82c3ea4d7c666f0ce8b1ab5d7cc145d3919",
+    "locator": "Printed page 172 (PDF page 3), Table 4 method 3; bibliography on printed page 173 (PDF page 4)",
+    "observed": "PDF table and publisher table image agree on all eight areas and reported weight"
+  },
+  "zhu_bibliographic_record": {
+    "doi": "10.1080/03052158608902522",
+    "title": "An improved Templeman's algorithm for the optimum design of trusses with discrete member sizes",
+    "deposited_author": {"given": "DUAN", "family": "MING-ZHU"},
+    "journal": "Engineering Optimization",
+    "volume": "9",
+    "issue": "4",
+    "year": 1986,
+    "deposited_pages": "303-312",
+    "kripka_citation": "Zhu, D.M.; 302-312",
+    "record_url": "https://api.crossref.org/works/10.1080/03052158608902522",
+    "record_sha256": "06f372bf2199c32eb61d5db097de5d87246ac507229f031f032c87df5a27dfce",
+    "full_text_obtained": false,
+    "limitation": "Metadata does not establish the original byline parsing, formulation, numerical row or historical cause of the discrepancy"
+  },
+  "transcription": "Direct visual inspection of the publisher table image; factual numerical row only, image not redistributed",
+  "case": "25bar",
+  "profile": "reference",
+  "model_sha256": "5291c9023163d70b696d644923fc2ad94bcaf07984a6f037986f13035ef42328",
+  "areas_in2": [0.1, 1.8, 2.6, 0.1, 0.1, 0.8, 2.1, 2.6],
+  "reported_weight_lb": "562.93",
+  "reporting_window_lbm": [562.925, 562.935],
+  "reporting_convention": "Explicit audit convention: nearest hundredth, lower endpoint included and upper excluded. The source does not prescribe a rounding rule; no checked mass is at either endpoint.",
+  "diagnostic_scope": "Exactly one of eight group areas replaced by another member of the unchanged 30-value catalogue; excludes the unchanged vector. This is a finite hypothesis class, not a reconstruction of historical intent."
+}
