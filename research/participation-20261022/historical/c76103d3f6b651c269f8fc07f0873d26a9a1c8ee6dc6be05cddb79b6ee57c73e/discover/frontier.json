@@ -1,0 +1,100 @@
+{
+  "schema": "discover-frontier/v0",
+  "statement": "Six feasible local incumbent rows for two frozen truss models, with reference sizing and tube/Euler sizing/topology variants; every row recomputed by two implementations. Selected published baselines reproduce; no global optimum or physical safety claim.",
+  "status": "LOCAL author-checked pilot; awaiting independent scientific review; intake paused",
+  "evidence_level": [
+    "author-checked"
+  ],
+  "claim_kind": [
+    "model"
+  ],
+  "scope": "benchmarks/*bar.json v1.0.0 and LOCK.sha256.json; fixed node/member geometry, discrete group areas, float64 tolerances in docs/MODEL.md",
+  "assumptions": [
+    {
+      "id": "physical-transfer",
+      "statement": "Ideal pin-jointed linear model; physical suitability is outside scope.",
+      "status": "open",
+      "link": "docs/MODEL.md"
+    },
+    {
+      "id": "independent-review",
+      "statement": "Both implementations authored in one session; external review remains outstanding.",
+      "status": "open",
+      "link": "discover/ledger.md"
+    }
+  ],
+  "review": "discover/ledger.md",
+  "updated_on": "2026-10-20",
+  "sources": [
+    "https://doi.org/10.1590/S1678-58782004000200008",
+    "https://pp.bme.hu/ci/article/download/460/217",
+    "https://doi.org/10.1007/s00158-022-03325-7"
+  ],
+  "table": {
+    "path": "results/summary.json",
+    "key": [
+      "case",
+      "variant"
+    ],
+    "value": "mass_lbm",
+    "direction": "lower-is-better",
+    "object": "object",
+    "check_row": [
+      "python3",
+      "scripts/check.py",
+      "{object}"
+    ],
+    "check_row_minutes": 1,
+    "by": "by",
+    "source": "source",
+    "updated": "updated"
+  },
+  "reproduce": "python3 scripts/reproduce.py",
+  "reproduce_full": "python3 scripts/run_search.py --iterations 120 --seeds 17 42 2026 --output scratch/replay",
+  "reproduce_minutes": 1,
+  "prerequisites": [
+    "Python >=3.12",
+    "pip install -r requirements.txt in a local virtual environment"
+  ],
+  "pinned_heads": {
+    "model_freeze": "b3024e9"
+  },
+  "artifacts": [
+    {
+      "path": "benchmarks/10bar.json",
+      "sha256": "8a9e3b79ffd97d532da58269ff8b672612893bb7d034b4d71e5f789ee3f6c673"
+    },
+    {
+      "path": "benchmarks/25bar.json",
+      "sha256": "5291c9023163d70b696d644923fc2ad94bcaf07984a6f037986f13035ef42328"
+    },
+    {
+      "path": "benchmarks/LOCK.sha256.json",
+      "sha256": "e783bfe4be3cf2a21872938182bbe133cb115083493d0821694d9a28931407b9"
+    },
+    {
+      "path": "results/10bar-reference-winner.json",
+      "sha256": "62b2fb6de2ac0628a6669de79f555873d907dc5066cb54d997e4d134446da3d5"
+    },
+    {
+      "path": "results/10bar-tube-sizing-winner.json",
+      "sha256": "8f690b897013eba23e6665f9c64fb5615e260754ef960baedd4b6768d2807d51"
+    },
+    {
+      "path": "results/10bar-tube-topology-winner.json",
+      "sha256": "42cb2ce888aca9293381f70a792958c35a88fb0b8cb949317590cb6f7a1d3013"
+    },
+    {
+      "path": "results/25bar-reference-winner.json",
+      "sha256": "ee078308a0d23d5ccb205f94877d17b3e82aad408315ca56ff821ba20acdffb6"
+    },
+    {
+      "path": "results/25bar-tube-sizing-winner.json",
+      "sha256": "00945adc9566f18ea44235db0e52d462446d3430c4c2802be23c1c612d0a38b8"
+    },
+    {
+      "path": "results/25bar-tube-topology-winner.json",
+      "sha256": "8eab6ccaadec3873eef5863be2db7e8ab034a09b5262798523289263dd80bf3f"
+    }
+  ]
+}

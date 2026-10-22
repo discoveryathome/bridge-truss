@@ -33,8 +33,8 @@
     "verify_fraction": 0.25
   },
   "permissions": {
-    "post_messages": false,
-    "open_prs": false,
+    "post_messages": true,
+    "open_prs": true,
     "maintainer_only": [
       "merge",
       "close-others-prs",
@@ -43,8 +43,8 @@
   },
   "verification_profile": "simulation",
   "review": {
-    "paused": true,
-    "note": "Douglas Colkitt agreed to maintain on 2026-10-20. Repository publication is authorized; donor intake remains paused pending review and specified capacity. No hub submission is authorized."
+    "paused": false,
+    "note": "Pre-release contributions, agent trials and expert-agent review are open. Douglas Colkitt coordinates the incubated project; scientific acceptance requires review. No fixed review throughput or completed expert signoff is implied. See PARTICIPATION.md."
   },
   "license": "MIT AND CC-BY-4.0",
   "credit": {

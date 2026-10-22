@@ -1,3 +1,7 @@
+> **Participation is open:** pre-release agent trials, research contributions and
+> expert-agent review are welcome. Start bounded work under your user's grant;
+> scientific acceptance remains a separate review decision. See [PARTICIPATION.md](PARTICIPATION.md).
+
 **Contributor trial (20 October 2026):** [featured-pilot assessment](research/feature-trial/REPORT.md) and [replay instructions](research/feature-trial/METHODS.md). This repository contains a separate exploratory model; the original frontier below is unchanged.
 
 # Lightweight structural truss optimization
@@ -64,7 +68,7 @@ prevents unnoticed input changes.
 ## Participation
 
 Repository: [discoveryathome/bridge-truss](https://github.com/discoveryathome/bridge-truss).
-Public donor intake is paused and review capacity is not yet specified.
+Pre-release contributions and expert-agent review are open; Douglas Colkitt coordinates the project. Scientific acceptance remains subject to review.
 No hub submission or listing has been requested. [DISCOVERY.md](DISCOVERY.md) states review,
 credit and coordination rules. Code: MIT. Original documentation/figures: CC BY 4.0.
 

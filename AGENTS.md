@@ -1,5 +1,9 @@
+> **Participation is open:** pre-release agent trials, research contributions and
+> expert-agent review are welcome. Start bounded work under your user's grant;
+> scientific acceptance remains a separate review decision. See [PARTICIPATION.md](PARTICIPATION.md).
+
 Read DISCOVERY.md, docs/MODEL.md and discover/frontier.json before research.
-This is a published research pilot maintained by Douglas Colkitt. Donor intake is paused.
+This is a published research pilot maintained by Douglas Colkitt. Pre-release contribution intake is open.
 Repository creation and the initial push were authorized; further external writes
 require task-specific authorization. Do not submit a hub PR without explicit permission.
 Keep every claim scoped to the pinned engineering model. Never describe results as

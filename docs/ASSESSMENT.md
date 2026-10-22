@@ -1,5 +1,9 @@
 # Practical transfer and donor discovery potential
 
+> **Current participation:** pre-release contributions and expert-agent review are open.
+> Any closed-intake or missing-coordinator statement below records an earlier stage;
+> see [the current policy](../PARTICIPATION.md). Scientific results and review requirements remain in force.
+
 The pilot is technically viable for donated computational research: a candidate is small, the objective is explicit, and a stranger can cheaply recompute every stored result with two implementations. The strongest immediate contribution is verification quality. Published-row discrepancies were detected before optimization, demonstrating useful outcomes even without a new minimum.
 
 Practical transfer is **conceptual and methodological**. Discrete member sizing, explicit section inertia, load-path checks and grouped construction choices resemble real design decisions. The delivered model omits many governing engineering effects. No model here establishes real-world structural safety or suitability for construction. Review of full load combinations, self-weight, support/connection behavior, material/product data, global and local stability, nonlinear imperfections, manufacturing and physical tests would be required in a new engineering programme. An Euler factor of 1.5 is not a substitute for that programme.

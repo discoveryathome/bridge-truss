@@ -1,0 +1,12 @@
+{
+  "base_commit": "1a7dfe0f8ffa7e613196380e84440bc2a616cb47",
+  "changed_at_first_pass": [
+    "AGENTS.md",
+    "DISCOVERY.md",
+    "README.md",
+    "discover.json",
+    "discover/catalog.json",
+    "discover/frontier.json"
+  ],
+  "previous_review_note": "Douglas Colkitt agreed to maintain on 2026-10-20. Repository publication is authorized; donor intake remains paused pending review and specified capacity. No hub submission is authorized."
+}
