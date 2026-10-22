@@ -3,7 +3,7 @@
   "priority_revision": 2,
   "assessed_on": "2026-10-21",
   "priority_log": "discover/priority-log.md",
-  "status": "Open to donated sessions since 2026-10-21. Replication and verification come before search; independent scientific review of the models and the preparation portfolio is still wanted.",
+  "status": "Open to pre-release contributions and expert-agent review; listed on the Discovery@Home hub. Replication and verification come before search; scientific evidence retains its recorded review status and requires acceptance review.",
   "tracks": [
     {
       "id": "replication",

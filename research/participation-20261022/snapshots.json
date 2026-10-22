@@ -1,0 +1,53 @@
+{
+  "base_commit": "1a7dfe0f8ffa7e613196380e84440bc2a616cb47",
+  "versions": {
+    "AGENTS.md": {
+      "65b79d5beb71f9a06a466ffa226a5cf2648f35962e59a960b8a68d18bd65e0f2": {
+        "snapshot": "research/participation-20261022/historical/65b79d5beb71f9a06a466ffa226a5cf2648f35962e59a960b8a68d18bd65e0f2/AGENTS.md",
+        "current_sha256": "2e0170447f78702edad2641d569507e022a20cbf06befdab0bdd66cd4e574642"
+      }
+    },
+    "DISCOVERY.md": {
+      "b05035b036846c9e59e72a856d51c7bb325ba011dae71296ee57940d8bbfe616": {
+        "snapshot": "research/participation-20261022/historical/b05035b036846c9e59e72a856d51c7bb325ba011dae71296ee57940d8bbfe616/DISCOVERY.md",
+        "current_sha256": "48a1bbc1c20305e0d0f79e4302c54d3b6024cce8f4a20ea55cfe86d66e7d642f"
+      }
+    },
+    "README.md": {
+      "4ba91de37133053a1a0b22f79a5a6055350777ce7d606cbf162e5dd760d19b99": {
+        "snapshot": "research/participation-20261022/historical/4ba91de37133053a1a0b22f79a5a6055350777ce7d606cbf162e5dd760d19b99/README.md",
+        "current_sha256": "ff21c9e448a08d087257a70e05e33308e79e17453fa9bb2e2e1f295f349076cb"
+      }
+    },
+    "discover.json": {
+      "e3187a2b6f01d45f11f1cbf3baa07491d5a27802f3eac396a99cbac103a93525": {
+        "snapshot": "research/participation-20261022/historical/e3187a2b6f01d45f11f1cbf3baa07491d5a27802f3eac396a99cbac103a93525/discover.json",
+        "current_sha256": "ac1d055816fddb5583ef98ca542a5473788f842ad8752d12d79761156a54d598"
+      }
+    },
+    "discover/catalog.json": {
+      "db4ec8a7ed9f0262077483435a3a416bbc393fabe4e85257689b3e74985e0234": {
+        "snapshot": "research/participation-20261022/historical/db4ec8a7ed9f0262077483435a3a416bbc393fabe4e85257689b3e74985e0234/discover/catalog.json",
+        "current_sha256": "4d14b584bd92a06178453a4c8a85017d94a32ee666571a088cd5b7461b973213"
+      }
+    },
+    "discover/frontier.json": {
+      "c76103d3f6b651c269f8fc07f0873d26a9a1c8ee6dc6be05cddb79b6ee57c73e": {
+        "snapshot": "research/participation-20261022/historical/c76103d3f6b651c269f8fc07f0873d26a9a1c8ee6dc6be05cddb79b6ee57c73e/discover/frontier.json",
+        "current_sha256": "5336b9f19503b8d1c70e49d96e1b8b86b3d4667bca2755a9d87df84ac47756f3"
+      }
+    },
+    "docs/ASSESSMENT.md": {
+      "f433aa25f0b02d2d97765196fd57740df911a4f4d7423bbbeb156a8728818a4c": {
+        "snapshot": "research/participation-20261022/historical/f433aa25f0b02d2d97765196fd57740df911a4f4d7423bbbeb156a8728818a4c/docs/ASSESSMENT.md",
+        "current_sha256": "1e37265cc4e91066ffd40eabec19174b27a8565c54aa2323bfefb8a0974a4c5e"
+      }
+    },
+    "research/readiness-20261021/check_manifest.py": {
+      "6ea3770d845b36201a1bb6c3b03585d3c7e137af55af6142c68baf6c734d018d": {
+        "snapshot": "research/participation-20261022/historical/6ea3770d845b36201a1bb6c3b03585d3c7e137af55af6142c68baf6c734d018d/research/readiness-20261021/check_manifest.py",
+        "current_sha256": "b7e7bb8779cbc07efc88023493fc626b1fed142062824b9c39df1caa9ebd5d1b"
+      }
+    }
+  }
+}

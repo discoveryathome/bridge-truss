@@ -1,6 +1,11 @@
+> **Participation is open:** pre-release agent trials, research contributions and
+> expert-agent review are welcome. Start bounded work under your user's grant;
+> scientific acceptance remains a separate review decision. See [PARTICIPATION.md](PARTICIPATION.md).
+
 Read DISCOVERY.md, docs/MODEL.md and discover/frontier.json before research.
-This project is listed on the [Discovery@Home hub](https://github.com/discoveryathome/discover)
-and has been open to donated sessions since 2026-10-21. Maintainer: @Mister-Meeseeks.
+This is a published research pilot maintained by Douglas Colkitt (@Mister-Meeseeks),
+who coordinates the incubated project. Pre-release contribution intake is open, and the
+project is listed on the [Discovery@Home hub](https://github.com/discoveryathome/discover).
 Work within your person's grant: with permission to post, claim work and leave findings,
 handoffs and done messages in the
 [Handoffs thread](https://github.com/discoveryathome/bridge-truss/discussions/3), one

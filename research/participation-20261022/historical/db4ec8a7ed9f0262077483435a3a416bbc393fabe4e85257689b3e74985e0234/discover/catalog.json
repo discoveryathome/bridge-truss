@@ -1,0 +1,327 @@
+{
+  "schema": "discover-catalog/v0",
+  "priority_revision": 2,
+  "assessed_on": "2026-10-21",
+  "priority_log": "discover/priority-log.md",
+  "status": "Local preparation; scientific signoff and public intake pending",
+  "tracks": [
+    {
+      "id": "replication",
+      "weight": 40,
+      "useful_outcome": "Resolve source comparability and reproduce published designs.",
+      "tasks": [
+        {
+          "id": "source-audit",
+          "question": "Which printed baseline vectors satisfy the exact stated models?",
+          "starting_points": [
+            "docs/LITERATURE.md",
+            "docs/source-lock.json"
+          ],
+          "methods": [
+            "Use the frozen inputs and exact reproduction commands; cite every new source or assumption."
+          ],
+          "acceptance_gate": "A sourced reproduction report preserving rejected original vectors.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/audit.py",
+              "sources"
+            ],
+            "expected": "Two selected baselines pass; disputed 10/25-bar rows fail; 72-bar mass-only audit is labelled.",
+            "scope": "Resolve source comparability and reproduce published designs."
+          },
+          "bottleneck_link": "Resolve source comparability and reproduce published designs."
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "weight": 25,
+      "useful_outcome": "Increase confidence in numerical acceptance.",
+      "tasks": [
+        {
+          "id": "solver-audit",
+          "question": "Can analytical and adversarial fixtures expose a shared solver error?",
+          "starting_points": [
+            "docs/MODEL.md",
+            "tests/test_solver.py"
+          ],
+          "methods": [
+            "Use the frozen inputs and exact reproduction commands; cite every new source or assumption."
+          ],
+          "acceptance_gate": "An independently reasoned check or counterexample with a minimal fixture.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/reproduce.py",
+              "--tests-only"
+            ],
+            "expected": "All 13 structural tests pass, including rejection controls.",
+            "scope": "Increase confidence in numerical acceptance."
+          },
+          "bottleneck_link": "Increase confidence in numerical acceptance."
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "weight": 25,
+      "useful_outcome": "Improve verified mass within one unchanged frozen model.",
+      "tasks": [
+        {
+          "id": "10bar-individual-v2",
+          "question": "Can 10bar-individual-v2 improve its inherited mass/section-count tradeoff?",
+          "starting_points": [
+            "research/readiness-20261021/README.md",
+            "research/readiness-20261021/models/LOCK.json",
+            "research/readiness-20261021/portfolio.json"
+          ],
+          "methods": [
+            "Bounded experiment from inherited witness; retain all results and exact provenance"
+          ],
+          "acceptance_gate": "Both structural engines pass at the frozen model hash; mass improvement under same constraints or explicitly separate section-count tradeoff. Engineering review pending.",
+          "first_step": {
+            "command": [
+              "python",
+              "scripts/prepare_portfolio.py",
+              "--candidate",
+              "research/readiness-20261021/10bar-individual-v2-incumbent.json"
+            ],
+            "expected": "Positive control passes; independent scientific review remains pending."
+          },
+          "bottleneck_link": "research/readiness-20261021/REVIEW.md",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible local handoff."
+        },
+        {
+          "id": "10bar-lateral-reversal-v2",
+          "question": "Can 10bar-lateral-reversal-v2 improve its inherited mass/section-count tradeoff?",
+          "starting_points": [
+            "research/readiness-20261021/README.md",
+            "research/readiness-20261021/models/LOCK.json",
+            "research/readiness-20261021/portfolio.json"
+          ],
+          "methods": [
+            "Bounded experiment from inherited witness; retain all results and exact provenance"
+          ],
+          "acceptance_gate": "Both structural engines pass at the frozen model hash; mass improvement under same constraints or explicitly separate section-count tradeoff. Engineering review pending.",
+          "first_step": {
+            "command": [
+              "python",
+              "scripts/prepare_portfolio.py",
+              "--candidate",
+              "research/readiness-20261021/10bar-lateral-reversal-v2-incumbent.json"
+            ],
+            "expected": "Positive control passes; independent scientific review remains pending."
+          },
+          "bottleneck_link": "research/readiness-20261021/REVIEW.md",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible local handoff."
+        },
+        {
+          "id": "10bar-vertical-reversal-v2",
+          "question": "Can 10bar-vertical-reversal-v2 improve its inherited mass/section-count tradeoff?",
+          "starting_points": [
+            "research/readiness-20261021/README.md",
+            "research/readiness-20261021/models/LOCK.json",
+            "research/readiness-20261021/portfolio.json"
+          ],
+          "methods": [
+            "Bounded experiment from inherited witness; retain all results and exact provenance"
+          ],
+          "acceptance_gate": "Both structural engines pass at the frozen model hash; mass improvement under same constraints or explicitly separate section-count tradeoff. Engineering review pending.",
+          "first_step": {
+            "command": [
+              "python",
+              "scripts/prepare_portfolio.py",
+              "--candidate",
+              "research/readiness-20261021/10bar-vertical-reversal-v2-incumbent.json"
+            ],
+            "expected": "Positive control passes; independent scientific review remains pending."
+          },
+          "bottleneck_link": "research/readiness-20261021/REVIEW.md",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible local handoff."
+        },
+        {
+          "id": "10bar-all-reversals-v2",
+          "question": "Can 10bar-all-reversals-v2 improve its inherited mass/section-count tradeoff?",
+          "starting_points": [
+            "research/readiness-20261021/README.md",
+            "research/readiness-20261021/models/LOCK.json",
+            "research/readiness-20261021/portfolio.json"
+          ],
+          "methods": [
+            "Bounded experiment from inherited witness; retain all results and exact provenance"
+          ],
+          "acceptance_gate": "Both structural engines pass at the frozen model hash; mass improvement under same constraints or explicitly separate section-count tradeoff. Engineering review pending.",
+          "first_step": {
+            "command": [
+              "python",
+              "scripts/prepare_portfolio.py",
+              "--candidate",
+              "research/readiness-20261021/10bar-all-reversals-v2-incumbent.json"
+            ],
+            "expected": "Positive control passes; independent scientific review remains pending."
+          },
+          "bottleneck_link": "research/readiness-20261021/REVIEW.md",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible local handoff."
+        },
+        {
+          "id": "25bar-individual-v2",
+          "question": "Can 25bar-individual-v2 improve its inherited mass/section-count tradeoff?",
+          "starting_points": [
+            "research/readiness-20261021/README.md",
+            "research/readiness-20261021/models/LOCK.json",
+            "research/readiness-20261021/portfolio.json"
+          ],
+          "methods": [
+            "Bounded experiment from inherited witness; retain all results and exact provenance"
+          ],
+          "acceptance_gate": "Both structural engines pass at the frozen model hash; mass improvement under same constraints or explicitly separate section-count tradeoff. Engineering review pending.",
+          "first_step": {
+            "command": [
+              "python",
+              "scripts/prepare_portfolio.py",
+              "--candidate",
+              "research/readiness-20261021/25bar-individual-v2-incumbent.json"
+            ],
+            "expected": "Positive control passes; independent scientific review remains pending."
+          },
+          "bottleneck_link": "research/readiness-20261021/REVIEW.md",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible local handoff."
+        },
+        {
+          "id": "25bar-lateral-reversal-v2",
+          "question": "Can 25bar-lateral-reversal-v2 improve its inherited mass/section-count tradeoff?",
+          "starting_points": [
+            "research/readiness-20261021/README.md",
+            "research/readiness-20261021/models/LOCK.json",
+            "research/readiness-20261021/portfolio.json"
+          ],
+          "methods": [
+            "Bounded experiment from inherited witness; retain all results and exact provenance"
+          ],
+          "acceptance_gate": "Both structural engines pass at the frozen model hash; mass improvement under same constraints or explicitly separate section-count tradeoff. Engineering review pending.",
+          "first_step": {
+            "command": [
+              "python",
+              "scripts/prepare_portfolio.py",
+              "--candidate",
+              "research/readiness-20261021/25bar-lateral-reversal-v2-incumbent.json"
+            ],
+            "expected": "Positive control passes; independent scientific review remains pending."
+          },
+          "bottleneck_link": "research/readiness-20261021/REVIEW.md",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible local handoff."
+        },
+        {
+          "id": "25bar-vertical-reversal-v2",
+          "question": "Can 25bar-vertical-reversal-v2 improve its inherited mass/section-count tradeoff?",
+          "starting_points": [
+            "research/readiness-20261021/README.md",
+            "research/readiness-20261021/models/LOCK.json",
+            "research/readiness-20261021/portfolio.json"
+          ],
+          "methods": [
+            "Bounded experiment from inherited witness; retain all results and exact provenance"
+          ],
+          "acceptance_gate": "Both structural engines pass at the frozen model hash; mass improvement under same constraints or explicitly separate section-count tradeoff. Engineering review pending.",
+          "first_step": {
+            "command": [
+              "python",
+              "scripts/prepare_portfolio.py",
+              "--candidate",
+              "research/readiness-20261021/25bar-vertical-reversal-v2-incumbent.json"
+            ],
+            "expected": "Positive control passes; independent scientific review remains pending."
+          },
+          "bottleneck_link": "research/readiness-20261021/REVIEW.md",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible local handoff."
+        },
+        {
+          "id": "25bar-all-reversals-v2",
+          "question": "Can 25bar-all-reversals-v2 improve its inherited mass/section-count tradeoff?",
+          "starting_points": [
+            "research/readiness-20261021/README.md",
+            "research/readiness-20261021/models/LOCK.json",
+            "research/readiness-20261021/portfolio.json"
+          ],
+          "methods": [
+            "Bounded experiment from inherited witness; retain all results and exact provenance"
+          ],
+          "acceptance_gate": "Both structural engines pass at the frozen model hash; mass improvement under same constraints or explicitly separate section-count tradeoff. Engineering review pending.",
+          "first_step": {
+            "command": [
+              "python",
+              "scripts/prepare_portfolio.py",
+              "--candidate",
+              "research/readiness-20261021/25bar-all-reversals-v2-incumbent.json"
+            ],
+            "expected": "Positive control passes; independent scientific review remains pending."
+          },
+          "bottleneck_link": "research/readiness-20261021/REVIEW.md",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "first_experiment": "Spend at most 30 minutes on one scoped experiment; reserve the final 10 minutes for checking and a reproducible local handoff."
+        }
+      ]
+    },
+    {
+      "id": "transfer",
+      "weight": 10,
+      "useful_outcome": "Identify missing engineering assumptions without certifying designs.",
+      "tasks": [
+        {
+          "id": "transfer-audit",
+          "question": "Which assumptions most limit practical transfer?",
+          "starting_points": [
+            "docs/MODEL.md",
+            "docs/ASSESSMENT.md"
+          ],
+          "methods": [
+            "Use the frozen inputs and exact reproduction commands; cite every new source or assumption."
+          ],
+          "acceptance_gate": "A bounded proposal for a separately versioned validation model; no construction claim.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/audit.py",
+              "transfer"
+            ],
+            "expected": "Prints winning utilizations and the explicitly excluded physics.",
+            "scope": "Identify missing engineering assumptions without certifying designs."
+          },
+          "bottleneck_link": "Identify missing engineering assumptions without certifying designs."
+        }
+      ]
+    }
+  ]
+}

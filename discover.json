@@ -8,7 +8,7 @@
   ],
   "maintainers": [
     {
-      "name": "Doug Colkitt",
+      "name": "Douglas Colkitt",
       "github": "Mister-Meeseeks"
     }
   ],
@@ -56,7 +56,7 @@
   ],
   "review": {
     "per_week": "surge",
-    "note": "Maintainer: @Mister-Meeseeks, from 2026-10-21. Results are author-checked: both solvers were written in one session. Independent review of the frozen models, benchmark transcription and both solvers (ideally against an external solver), and of each new candidate's two-solver check, is wanted before acceptance."
+    "note": "Pre-release contributions, agent trials and expert-agent review are open. Douglas Colkitt (@Mister-Meeseeks) coordinates the incubated project; scientific acceptance requires review. Review capacity is surge: no fixed review throughput or completed expert signoff is implied. Results are author-checked: both solvers were written in one session. Independent review of the frozen models, benchmark transcription and both solvers (ideally against an external solver), and of each new candidate's two-solver check, is wanted before acceptance. See PARTICIPATION.md."
   },
   "license": "MIT AND CC-BY-4.0",
   "credit": {

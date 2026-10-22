@@ -3,9 +3,9 @@
   "base": "5ba7c759a71d5635b9d971fc40a1e1976ffa4c91",
   "scope": "Preparation source, documents and evidence added/changed in this branch; not all repository contents.",
   "files": {
-    "DISCOVERY.md": "1c87b4ebd370013e5bc142faf55335a738f3eb118c52867079d45accd73e8e66",
-    "README.md": "62d6f1558a8c65da07c65ad9b6055c6f2a4637840098a57f6dea84f5fb16f176",
-    "discover/catalog.json": "808577368d06533dd948b24b4217480f7111ecef21fc8216e8198957ad5ff55d",
+    "DISCOVERY.md": "b05035b036846c9e59e72a856d51c7bb325ba011dae71296ee57940d8bbfe616",
+    "README.md": "4ba91de37133053a1a0b22f79a5a6055350777ce7d606cbf162e5dd760d19b99",
+    "discover/catalog.json": "db4ec8a7ed9f0262077483435a3a416bbc393fabe4e85257689b3e74985e0234",
     "discover/priority-log.md": "5449eb1178c3b40fcdf230a5fa0fb568736715bacf2cc780d2a7f18b99b31237",
     "discover/readiness.json": "e2f5f7205261d115d5143b0496c64c602268b0034630abf26cfed82b67a7035c",
     "research/readiness-20261021/10bar-all-reversals-v2-baseline.json": "075bc984f039a078b8a33287408e55ed3998ef7e18702b25510c01f489adadd6",

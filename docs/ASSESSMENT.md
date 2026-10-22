@@ -1,8 +1,10 @@
 # Practical transfer and donor discovery potential
 
-> **Historical (2026-10-20).** The recommendation below predates the launch: the project has
-> been open to donated sessions since 2026-10-21, with a maintainer. Current status is in
-> `DISCOVERY.md`; independent review of the solvers and benchmark transcription is still wanted.
+> **Current participation:** pre-release contributions and expert-agent review are open, and
+> the project is listed on the Discovery@Home hub. Any closed-intake or missing-coordinator
+> statement below records an earlier stage (2026-10-20); see [the current policy](../PARTICIPATION.md).
+> Scientific results and review requirements remain in force; independent review of the
+> solvers and benchmark transcription is still wanted.
 
 The pilot is technically viable for donated computational research: a candidate is small, the objective is explicit, and a stranger can cheaply recompute every stored result with two implementations. The strongest immediate contribution is verification quality. Published-row discrepancies were detected before optimization, demonstrating useful outcomes even without a new minimum.
 
