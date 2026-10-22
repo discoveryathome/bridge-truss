@@ -1,0 +1,42 @@
+{
+  "source": "M. Kripka (2004), Discrete optimization of trusses by simulated annealing, J. Braz. Soc. Mech. Sci. & Eng. 26(2), 170-173",
+  "doi": "https://doi.org/10.1590/S1678-58782004000200008",
+  "retrieved_on": "2026-10-22",
+  "method": "Direct visual inspection of original hosted table images; hashes match docs/source-lock.json. Source images are not redistributed.",
+  "table4": {
+    "url": "https://minio.scielo.br/documentstore/1806-3691/vZNDbfZ66DHqFZc3HPcrj4k/94c459eaed0555f014ce4ff81e33b9be4ff48c8b.gif",
+    "sha256": "57183e73e8df9f28dab365efd1403fbc745dd45f49ba3bd63030754c628915bd",
+    "area_units": "in2",
+    "group_numbering": "1 through 8, in printed column order",
+    "method1": {"areas": [0.1, 0.1, 3.4, 0.1, 2.0, 1.0, 0.7, 3.4], "reported_weight_lb": "487.41"},
+    "method2": {"areas": [0.1, 1.8, 2.3, 0.2, 0.1, 0.8, 1.8, 3.0], "reported_weight_lb": "546.01"},
+    "method3": {"areas": [0.1, 1.8, 2.6, 0.1, 0.1, 0.8, 2.1, 2.6], "reported_weight_lb": "562.93"},
+    "method4": {"areas": [0.1, 0.5, 3.4, 0.1, 1.9, 1.0, 0.4, 3.4], "reported_weight_lb": "485.05"},
+    "method5": {"areas": [1.5, 0.7, 3.4, 0.7, 0.4, 0.7, 1.5, 3.2], "reported_weight_lb": "539.78"},
+    "method6": {"areas": [0.1, 0.4, 3.4, 0.1, 2.2, 1.0, 0.4, 3.4], "reported_weight_lb": "484.33"}
+  },
+  "table3": {
+    "url": "https://minio.scielo.br/documentstore/1806-3691/vZNDbfZ66DHqFZc3HPcrj4k/34bb76069c05c044f63b95a043136f81a4bdda9e.gif",
+    "sha256": "9ce1d852091562de4afd9c0929f0dea59039637e90690508737a7391cff0502c",
+    "force_units": "N",
+    "nodal": [[1, 4453.74, -44537.40, -44537.40], [2, 0, -44537.40, -44537.40], [3, 2226.87, 0, 0], [6, 2672.24, 0, 0]]
+  },
+  "table2": {
+    "url": "https://minio.scielo.br/documentstore/1806-3691/vZNDbfZ66DHqFZc3HPcrj4k/d1262fa65cf7ebd46adf7790d57a29a937418df5.gif",
+    "sha256": "aa8ea5aec7643c957af51ef254a0dfc694b889e20ce6867ccb4add0865481ea1"
+  },
+  "figure2": {
+    "url": "https://minio.scielo.br/documentstore/1806-3691/vZNDbfZ66DHqFZc3HPcrj4k/2105cb285d7dd8fc370a85d16c9cf1aa04430967.gif",
+    "sha256": "68933b235f4a1138a5a412aa330ce7053a9348388cf3057be654445cf53789d3"
+  },
+  "article_html": {
+    "url": "https://new.scielo.br/j/jbsmse/a/vZNDbfZ66DHqFZc3HPcrj4k/?ilang=pt_BR&lang=en",
+    "sha256": "482ae1c9137a6f029324d63d7e8b5bca0f540417de6e76344ac5e0adde801344",
+    "locator": "Example 2: 25-bar truss"
+  },
+  "force_conversion": {
+    "newtons_per_lbf": "4.4482216152605",
+    "source": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes",
+    "locator": "Footnote 23"
+  }
+}
