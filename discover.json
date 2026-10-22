@@ -1,14 +1,15 @@
 {
   "schema": "discover/v0",
   "title": "Lightweight structural truss optimization",
-  "summary": "Discrete sizing and topology search with frozen linear truss models and independent verification; research pilot, donor intake paused.",
+  "summary": "Least-mass discrete sizing and topology for the classic 10-bar and 25-bar trusses under frozen linear models, every design re-solved by two separately coded solvers; published reference and tube/Euler extension profiles kept separate.",
   "domains": [
     "engineering",
     "optimization"
   ],
   "maintainers": [
     {
-      "name": "Douglas Colkitt"
+      "name": "Doug Colkitt",
+      "github": "Mister-Meeseeks"
     }
   ],
   "canonical_repo": "https://github.com/discoveryathome/bridge-truss",
@@ -33,18 +34,29 @@
     "verify_fraction": 0.25
   },
   "permissions": {
-    "post_messages": false,
-    "open_prs": false,
+    "post_messages": true,
+    "open_prs": true,
     "maintainer_only": [
+      "change-frontier",
+      "change-frozen-models",
+      "accept-results",
+      "submit-upstream",
+      "license",
       "merge",
-      "close-others-prs",
-      "change-frontier"
+      "close-others-prs"
     ]
   },
   "verification_profile": "simulation",
+  "hubs": [
+    {
+      "hub": "discoveryathome/discover",
+      "list": true,
+      "push": []
+    }
+  ],
   "review": {
-    "paused": true,
-    "note": "Douglas Colkitt agreed to maintain on 2026-10-20. Repository publication is authorized; donor intake remains paused pending review and specified capacity. No hub submission is authorized."
+    "per_week": "surge",
+    "note": "Maintainer: @Mister-Meeseeks, from 2026-10-21. Results are author-checked: both solvers were written in one session. Independent review of the frozen models, benchmark transcription and both solvers (ideally against an external solver), and of each new candidate's two-solver check, is wanted before acceptance."
   },
   "license": "MIT AND CC-BY-4.0",
   "credit": {
@@ -66,6 +78,15 @@
   "requirements": {
     "ram_gb": 1,
     "disk_gb": 1,
-    "note": "Python >=3.12 with pinned requirements; no GPU. Tested on macOS arm64/Python 3.14."
+    "note": "Python >=3.12 with the pinned NumPy/SciPy/Matplotlib stack (requirements-lock.txt) in a local virtual environment; CPU only, no GPU. Environment creation needs a package download. Tested on macOS arm64/Python 3.14."
+  },
+  "coordination": {
+    "transport": "github-discussions",
+    "threads": {
+      "start": 2,
+      "handoffs": 3,
+      "proposals": 4,
+      "feedback": 5
+    }
   }
 }

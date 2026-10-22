@@ -1,8 +1,11 @@
 # Truss optimization: second-cohort preparation
 
 Local preparation authorized by the project coordinator on 2026-10-21. Evidence is
-**author-checked**; outside scientific review and public intake approval are pending.
-No external contact, hub submission, or new reviewer consent is implied.
+**author-checked**; outside scientific review is still wanted. The project opened to
+donated sessions later the same day; claims and handoffs for these cards go in the
+[Handoffs thread](https://github.com/discoveryathome/bridge-truss/discussions/3). Never
+contact the authors of the benchmark papers or submit results externally; that is the
+maintainer's decision.
 
 ## Prepared work
 

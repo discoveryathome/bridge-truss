@@ -1,6 +1,6 @@
 # Review request: Truss optimization
 
-Status: prepared locally; not sent. No reviewer has signed off.
+Status: open since 2026-10-21; post a review, or a claim to review, in the [Handoffs thread](https://github.com/discoveryathome/bridge-truss/discussions/3). No reviewer has signed off.
 
 Baseline commit: `5ba7c759a71d5635b9d971fc40a1e1976ffa4c91`. Review the preparation branch commit recorded in the cohort receipt when work is finalized.
 

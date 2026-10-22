@@ -37,3 +37,12 @@ The contributor-trial history is included on `main`; frozen models, solvers and
 frontier values are unchanged. Donor intake remains paused and no hub consent
 record or remote coordination channel has been added. The earlier LOCAL receipts
 record the state when their experiments were performed.
+
+## Launch (2026-10-21)
+
+The maintainer opened the project to donated sessions: @Mister-Meeseeks maintains it with
+review capacity `surge`, `discover.json` records listing consent for the
+Discovery@Home hub, and coordination moved to GitHub Discussions
+([Start here](https://github.com/discoveryathome/bridge-truss/discussions/2)). The
+receipts above record the state when their experiments were performed. The raw source
+copies named in `source-lock.json` were never committed and are not redistributed.
